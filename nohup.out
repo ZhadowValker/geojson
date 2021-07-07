@@ -1,0 +1,1426 @@
+> ionic-app-scripts serve --address localhost --port 8100 --livereload-port 35729 --dev-logger-port 53703 --nobrowser
+[app-scripts] [10:38:30]  ionic-app-scripts 3.2.2 
+[app-scripts] [10:38:30]  watch started ... 
+[app-scripts] [10:38:30]  build dev started ... 
+[app-scripts] [10:38:30]  clean started ... 
+[app-scripts] [10:38:30]  clean finished in 8 ms 
+[app-scripts] [10:38:30]  copy started ... 
+[app-scripts] [10:38:30]  deeplinks started ... 
+[app-scripts] [10:38:31]  deeplinks finished in 456 ms 
+[app-scripts] [10:38:31]  transpile started ... 
+[app-scripts] [10:38:37]  transpile finished in 6.29 s 
+[app-scripts] [10:38:37]  preprocess started ... 
+[app-scripts] [10:38:37]  preprocess finished in less than 1 ms 
+[app-scripts] [10:38:37]  webpack started ... 
+[app-scripts] [10:38:37]  copy finished in 6.95 s 
+[app-scripts] [10:38:45]  webpack finished in 7.84 s 
+[app-scripts] [10:38:45]  sass started ... 
+[app-scripts] [10:38:47]  sass finished in 2.21 s 
+[app-scripts] [10:38:47]  postprocess started ... 
+[app-scripts] [10:38:47]  postprocess finished in 6 ms 
+[app-scripts] [10:38:47]  lint started ... 
+[app-scripts] [10:38:47]  build dev finished in 17.01 s 
+[app-scripts] [10:38:47]  watch ready in 17.19 s 
+
+[[40mINFO[49m] Development server running!
+       
+       Local: http://localhost:8100
+       
+       Use Ctrl+C to quit this process
+
+[[40mINFO[49m] Browser window opened to http://localhost:8100!
+
+[app-scripts] [33m[10:38:52]  tslint: src/services/config.ts, line: 970 [39m
+[app-scripts]             '$this' is declared but its value is never read. 
+[app-scripts] [2m     L969:  [22mregister_new_user(new_user_obj) {
+[app-scripts] [2m     L970:  [22m	let [41m$[49m[41mt[49m[41mh[49m[41mi[49m[41ms[49m = this;
+[app-scripts] [2m     L971:  [22m	let type = 'student';  // get type here admin or  student
+[app-scripts]             'Http' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Injectable } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { [41mH[49m[41mt[49m[41mt[49m[41mp[49m, Headers, Response, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts] [2m       L3:  [22mimport { Storage } from '@ionic/storage';
+[app-scripts] [33m[10:38:52]  tslint: src/services/config.ts, line: 2 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/config.ts, line: 2 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/config.ts, line: 2 [39m
+[app-scripts]             'Response' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Injectable } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { Http, Headers, [41mR[49m[41me[49m[41ms[49m[41mp[49m[41mo[49m[41mn[49m[41ms[49m[41me[49m, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts] [2m       L3:  [22mimport { Storage } from '@ionic/storage';
+[app-scripts]             'URLSearchParams' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Injectable } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { Http, Headers, Response, RequestOptions, [41mU[49m[41mR[49m[41mL[49m[41mS[49m[41me[49m[41ma[49m[41mr[49m[41mc[49m[41mh[49m[41mP[49m[41ma[49m[41mr[49m[41ma[49m[41mm[49m[41ms[49m } from '@angular/http';
+[app-scripts] [2m       L3:  [22mimport { Storage } from '@ionic/storage';
+[app-scripts]             'data' is declared but its value is never read. 
+[app-scripts] [2m     L200:  [22mif (index < 0) {
+[app-scripts] [33m[10:38:52]  tslint: src/services/chat.ts, line: 201 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/chat.ts, line: 321 [39m
+[app-scripts] [2m     L201:  [22m	let [41md[49m[41ma[49m[41mt[49m[41ma[49m = { key: mychat.key, allMessages: [] };
+[app-scripts] [2m     L202:  [22m	firebase.database()
+[app-scripts]             't' is declared but its value is never read. 
+[app-scripts] [2m     L320:  [22mmessage.message_key = key;
+[app-scripts] [2m     L321:  [22mlet [41mt[49m = 'key_not_exist';   // cheking for key exist or not
+[app-scripts] [2m     L322:  [22mif ($this.myChats.length) {
+[app-scripts]             't' is declared but its value is never read. 
+[app-scripts] [33m[10:38:52]  tslint: src/services/chat.ts, line: 383 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/chat.ts, line: 709 [39m
+[app-scripts] [2m     L382:  [22mmessage.message_key = key;
+[app-scripts] [2m     L383:  [22mlet [41mt[49m = 'key_not_exist';   // cheking for key exist or not
+[app-scripts] [2m     L384:  [22mif ($this.myChats.length) {
+[app-scripts]             'time' is declared but its value is never read. 
+[app-scripts] [2m     L708:  [22mreturn new Promise((resolve) => {
+[app-scripts] [2m     L709:  [22m	let [41mt[49m[41mi[49m[41mm[49m[41me[49m = Date.now();
+[app-scripts] [2m     L710:  [22m	firebase.database().ref(`/chats`).push({
+[app-scripts]             '$this' is declared but its value is never read. 
+[app-scripts] [33m[10:38:52]  tslint: src/services/chat.ts, line: 755 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/chat.ts, line: 757 [39m
+[app-scripts] [2m     L754:  [22mstart_new_chat_with_member(user, args, member_id) {
+[app-scripts] [2m     L755:  [22m	let [41m$[49m[41mt[49m[41mh[49m[41mi[49m[41ms[49m = this;
+[app-scripts] [2m     L756:  [22m	return new Promise((resolve) => {
+[app-scripts]             'time' is declared but its value is never read. 
+[app-scripts] [2m     L756:  [22mreturn new Promise((resolve) => {
+[app-scripts] [2m     L757:  [22m	let [41mt[49m[41mi[49m[41mm[49m[41me[49m = Date.now();
+[app-scripts] [2m     L758:  [22m	firebase.database().ref(`/chats`).push({
+[app-scripts] [33m[10:38:52]  tslint: src/services/chat.ts, line: 996 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/chat.ts, line: 1020 [39m
+[app-scripts]             '$this' is declared but its value is never read. 
+[app-scripts] [2m     L995:  [22msearch_online_members() {
+[app-scripts] [2m     L996:  [22m	let [41m$[49m[41mt[49m[41mh[49m[41mi[49m[41ms[49m = this
+[app-scripts] [2m     L997:  [22m	let online_users = [];
+[app-scripts]             '$this' is declared but its value is never read. 
+[app-scripts] [2m    L1019:  [22mregister_new_user(new_user_obj) {
+[app-scripts] [2m    L1020:  [22m	let [41m$[49m[41mt[49m[41mh[49m[41mi[49m[41ms[49m = this;
+[app-scripts] [2m    L1021:  [22m	let type = 'student';  // get type here admin or  student
+[app-scripts]             '$this' is declared but its value is never read. 
+[app-scripts] [2m    L1076:  [22mlogout(new_user_obj:any){
+[app-scripts] [2m    L1077:  [22m	let [41m$[49m[41mt[49m[41mh[49m[41mi[49m[41ms[49m = this;
+[app-scripts] [2m    L1078:  [22m	let type = 'student';  // get type here admin or  student
+[app-scripts]             'type' is declared but its value is never read. 
+[app-scripts] [33m[10:38:52]  tslint: src/services/chat.ts, line: 1077 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/chat.ts, line: 1078 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/chat.ts, line: 1079 [39m
+[app-scripts] [2m    L1077:  [22mlet $this = this;
+[app-scripts] [2m    L1078:  [22mlet [41mt[49m[41my[49m[41mp[49m[41me[49m = 'student';  // get type here admin or  student
+[app-scripts] [2m    L1079:  [22mlet user = {
+[app-scripts]             'user' is declared but its value is never read. 
+[app-scripts] [2m    L1078:  [22mlet type = 'student';  // get type here admin or  student
+[app-scripts] [2m    L1079:  [22mlet [41mu[49m[41ms[49m[41me[49m[41mr[49m = {
+[app-scripts] [2m    L1080:  [22m	'id': new_user_obj.id,
+[app-scripts]             '$this' is declared but its value is never read. 
+[app-scripts] [2m    L1091:  [22mcheck_user_status(user_id:any){
+[app-scripts] [2m    L1092:  [22m	let [41m$[49m[41mt[49m[41mh[49m[41mi[49m[41ms[49m = this;
+[app-scripts] [2m    L1093:  [22m	return new Promise((resolve)=>{
+[app-scripts]             'Http' is declared but its value is never read. 
+[app-scripts] [33m[10:38:52]  tslint: src/services/chat.ts, line: 1092 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/chat.ts, line: 2 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/chat.ts, line: 2 [39m
+[app-scripts] [2m       L1:  [22mimport { Injectable } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { [41mH[49m[41mt[49m[41mt[49m[41mp[49m, Headers, Response, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts] [2m       L3:  [22mimport { Storage } from '@ionic/storage';
+[app-scripts]             'Response' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Injectable } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { Http, Headers, [41mR[49m[41me[49m[41ms[49m[41mp[49m[41mo[49m[41mn[49m[41ms[49m[41me[49m, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts] [2m       L3:  [22mimport { Storage } from '@ionic/storage';
+[app-scripts]             'URLSearchParams' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Injectable } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { Http, Headers, Response, RequestOptions, [41mU[49m[41mR[49m[41mL[49m[41mS[49m[41me[49m[41ma[49m[41mr[49m[41mc[49m[41mh[49m[41mP[49m[41ma[49m[41mr[49m[41ma[49m[41mm[49m[41ms[49m } from '@angular/http';
+[app-scripts] [33m[10:38:52]  tslint: src/services/chat.ts, line: 2 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/chat.ts, line: 8 [39m
+[app-scripts] [2m       L3:  [22mimport { Storage } from '@ionic/storage';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L7:  [22mimport 'rxjs/add/operator/map';
+[app-scripts] [2m       L8:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Observable } from 'rxjs/Observable';
+[app-scripts] [2m       L9:  [22mimport firebase from 'firebase';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L1:  [22mimport { Injectable } from '@angular/core';
+[app-scripts] [2m       L2:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Component, OnInit } from '@angular/core';
+[app-scripts] [2m       L3:  [22mimport { Http, Headers, Response, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts] [33m[10:38:52]  tslint: src/services/push_notification.ts, line: 2 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/push_notification.ts, line: 3 [39m
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L2:  [22mimport { Component, OnInit } from '@angular/core';
+[app-scripts] [2m       L3:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Http, Headers, Response, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts] [2m       L4:  [22mimport { Storage } from '@ionic/storage';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [33m[10:38:52]  tslint: src/services/push_notification.ts, line: 9 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/authentication.ts, line: 45 [39m
+[app-scripts] [2m       L8:  [22mimport 'rxjs/add/operator/map';
+[app-scripts] [2m       L9:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Observable } from 'rxjs/Observable';
+[app-scripts] [2m      L10:  [22mimport { Platform } from 'ionic-angular';
+[app-scripts]             'fbObservable' is declared but its value is never read. 
+[app-scripts] [2m      L44:  [22mprivate observable: Observable<any>; //Tracks request in progress
+[app-scripts] [2m      L45:  [22mprivate [41mf[49m[41mb[49m[41mO[49m[41mb[49m[41ms[49m[41me[49m[41mr[49m[41mv[49m[41ma[49m[41mb[49m[41ml[49m[41me[49m: Observable<any>; //fb Login
+[app-scripts] [2m      L46:  [22mprivate baseUrl;
+[app-scripts]             'baseUrl' is declared but its value is never read. 
+[app-scripts] [2m      L45:  [22mprivate fbObservable: Observable<any>; //fb Login
+[app-scripts] [33m[10:38:52]  tslint: src/services/authentication.ts, line: 46 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/authentication.ts, line: 117 [39m
+[app-scripts] [2m      L46:  [22mprivate [41mb[49m[41ma[49m[41ms[49m[41me[49m[41mU[49m[41mr[49m[41ml[49m;
+[app-scripts] [2m      L47:  [22mpublic fbloggedin: boolean = false;
+[app-scripts]             'getHeaders' is declared but its value is never read. 
+[app-scripts] [2m     L117:  [22m    private [41mg[49m[41me[49m[41mt[49m[41mH[49m[41me[49m[41ma[49m[41md[49m[41me[49m[41mr[49m[41ms[49m() {
+[app-scripts] [2m     L118:  [22m        this.headers = this.storage.get('token').then((token) => {
+[app-scripts]             '$this' is declared but its value is never read. 
+[app-scripts] [2m     L285:  [22mpublic googleLogin(): Observable<any> {
+[app-scripts] [2m     L286:  [22m    let [41m$[49m[41mt[49m[41mh[49m[41mi[49m[41ms[49m = this;
+[app-scripts] [2m     L287:  [22m    let loading = this.loadingCtrl.create({
+[app-scripts] [33m[10:38:52]  tslint: src/services/authentication.ts, line: 286 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/authentication.ts, line: 2 [39m
+[app-scripts]             'Http' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Injectable, } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { [41mH[49m[41mt[49m[41mt[49m[41mp[49m, Headers, Response, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts] [2m       L3:  [22mimport { Platform, LoadingController, ToastController } from 'ionic-angular';
+[app-scripts]             'Response' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Injectable, } from '@angular/core';
+[app-scripts] [33m[10:38:52]  tslint: src/services/authentication.ts, line: 2 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/authentication.ts, line: 2 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/authentication.ts, line: 14 [39m
+[app-scripts] [2m       L2:  [22mimport { Http, Headers, [41mR[49m[41me[49m[41ms[49m[41mp[49m[41mo[49m[41mn[49m[41ms[49m[41me[49m, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts] [2m       L3:  [22mimport { Platform, LoadingController, ToastController } from 'ionic-angular';
+[app-scripts]             'URLSearchParams' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Injectable, } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { Http, Headers, Response, RequestOptions, [41mU[49m[41mR[49m[41mL[49m[41mS[49m[41me[49m[41ma[49m[41mr[49m[41mc[49m[41mh[49m[41mP[49m[41ma[49m[41mr[49m[41ma[49m[41mm[49m[41ms[49m } from '@angular/http';
+[app-scripts] [2m       L3:  [22mimport { Platform, LoadingController, ToastController } from 'ionic-angular';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L14:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { TabsPage } from '../pages/tabs/tabs';
+[app-scripts]             'observable' is declared but its value is never read. 
+[app-scripts] [2m      L27:  [22m    private lastpushed:number=0;
+[app-scripts] [33m[10:38:52]  tslint: src/services/activity.ts, line: 28 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/activity.ts, line: 32 [39m
+[app-scripts] [2m      L28:  [22m	private [41mo[49m[41mb[49m[41ms[49m[41me[49m[41mr[49m[41mv[49m[41ma[49m[41mb[49m[41ml[49m[41me[49m: Observable<any>; //Tracks request in progress
+[app-scripts]             Property 'platform' is declared but its value is never read. 
+[app-scripts] [2m      L31:  [22mprivate http:Http,
+[app-scripts] [2m      L32:  [22mprivate [41mp[49m[41ml[49m[41ma[49m[41mt[49m[41mf[49m[41mo[49m[41mr[49m[41mm[49m : Platform,
+[app-scripts] [2m      L33:  [22m 	private storage: Storage,
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L1:  [22mimport { Injectable } from '@angular/core';
+[app-scripts] [33m[10:38:52]  tslint: src/services/activity.ts, line: 2 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/activity.ts, line: 8 [39m
+[app-scripts] [2m       L2:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Http, Headers, Response, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts] [2m       L3:  [22mimport { Platform } from 'ionic-angular';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L7:  [22mimport 'rxjs/add/observable/of';
+[app-scripts] [2m       L8:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { DatePipe } from '@angular/common';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L10:  [22mimport { Activity } from "../models/activity";
+[app-scripts] [33m[10:38:52]  tslint: src/services/activity.ts, line: 11 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/group.ts, line: 2 [39m
+[app-scripts] [2m      L11:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { ActivityMeta } from "../models/activity";
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L1:  [22mimport { Injectable } from '@angular/core';
+[app-scripts] [2m       L2:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Component, OnInit} from '@angular/core';
+[app-scripts] [2m       L3:  [22mimport { Http, Headers, Response, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts]             'Http' is declared but its value is never read. 
+[app-scripts] [2m       L2:  [22mimport { Component, OnInit} from '@angular/core';
+[app-scripts] [2m       L3:  [22mimport { [41mH[49m[41mt[49m[41mt[49m[41mp[49m, Headers, Response, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts] [33m[10:38:52]  tslint: src/services/group.ts, line: 3 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/group.ts, line: 3 [39m
+[app-scripts] [2m       L4:  [22mimport { Storage } from '@ionic/storage';
+[app-scripts]             'Response' is declared but its value is never read. 
+[app-scripts] [2m       L2:  [22mimport { Component, OnInit} from '@angular/core';
+[app-scripts] [2m       L3:  [22mimport { Http, Headers, [41mR[49m[41me[49m[41ms[49m[41mp[49m[41mo[49m[41mn[49m[41ms[49m[41me[49m, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts] [2m       L4:  [22mimport { Storage } from '@ionic/storage';
+[app-scripts]             'URLSearchParams' is declared but its value is never read. 
+[app-scripts] [2m       L2:  [22mimport { Component, OnInit} from '@angular/core';
+[app-scripts] [33m[10:38:52]  tslint: src/services/group.ts, line: 3 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/group.ts, line: 9 [39m
+[app-scripts] [2m       L3:  [22mimport { Http, Headers, Response, RequestOptions, [41mU[49m[41mR[49m[41mL[49m[41mS[49m[41me[49m[41ma[49m[41mr[49m[41mc[49m[41mh[49m[41mP[49m[41ma[49m[41mr[49m[41ma[49m[41mm[49m[41ms[49m } from '@angular/http';
+[app-scripts] [2m       L4:  [22mimport { Storage } from '@ionic/storage';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L8:  [22mimport 'rxjs/add/operator/map';
+[app-scripts] [2m       L9:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Observable } from 'rxjs/Observable';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L1:  [22mimport { Injectable } from '@angular/core';
+[app-scripts] [2m       L2:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Component, OnInit } from '@angular/core';
+[app-scripts] [2m       L3:  [22mimport { Http, Headers, Response, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts] [33m[10:38:52]  tslint: src/services/forum.ts, line: 2 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/forum.ts, line: 3 [39m
+[app-scripts]             'Http' is declared but its value is never read. 
+[app-scripts] [2m       L2:  [22mimport { Component, OnInit } from '@angular/core';
+[app-scripts] [2m       L3:  [22mimport { [41mH[49m[41mt[49m[41mt[49m[41mp[49m, Headers, Response, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts] [2m       L4:  [22mimport { Storage } from '@ionic/storage';
+[app-scripts]             'Response' is declared but its value is never read. 
+[app-scripts] [2m       L2:  [22mimport { Component, OnInit } from '@angular/core';
+[app-scripts] [33m[10:38:52]  tslint: src/services/forum.ts, line: 3 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/forum.ts, line: 3 [39m
+[app-scripts] [2m       L3:  [22mimport { Http, Headers, [41mR[49m[41me[49m[41ms[49m[41mp[49m[41mo[49m[41mn[49m[41ms[49m[41me[49m, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts] [2m       L4:  [22mimport { Storage } from '@ionic/storage';
+[app-scripts]             'URLSearchParams' is declared but its value is never read. 
+[app-scripts] [2m       L2:  [22mimport { Component, OnInit } from '@angular/core';
+[app-scripts] [2m       L3:  [22mimport { Http, Headers, Response, RequestOptions, [41mU[49m[41mR[49m[41mL[49m[41mS[49m[41me[49m[41ma[49m[41mr[49m[41mc[49m[41mh[49m[41mP[49m[41ma[49m[41mr[49m[41ma[49m[41mm[49m[41ms[49m } from '@angular/http';
+[app-scripts] [2m       L4:  [22mimport { Storage } from '@ionic/storage';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L8:  [22mimport 'rxjs/add/operator/map';
+[app-scripts] [2m       L9:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Observable } from 'rxjs/Observable';
+[app-scripts] [33m[10:38:52]  tslint: src/services/forum.ts, line: 9 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/attendance.ts, line: 21 [39m
+[app-scripts]             Property 'storage' is declared but its value is never read. 
+[app-scripts] [2m      L20:  [22mconstructor(private http:Http,
+[app-scripts] [2m      L21:  [22m    private [41ms[49m[41mt[49m[41mo[49m[41mr[49m[41ma[49m[41mg[49m[41me[49m: Storage,
+[app-scripts] [2m      L22:  [22m    private auth: AuthenticationService,
+[app-scripts]             Property 'auth' is declared but its value is never read. 
+[app-scripts] [33m[10:38:52]  tslint: src/services/attendance.ts, line: 22 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/attendance.ts, line: 1 [39m
+[app-scripts] [2m      L21:  [22mprivate storage: Storage,
+[app-scripts] [2m      L22:  [22mprivate [41ma[49m[41mu[49m[41mt[49m[41mh[49m: AuthenticationService,
+[app-scripts] [2m      L23:  [22mprivate config:ConfigService) {
+[app-scripts]             'OnInit' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Injectable, [41mO[49m[41mn[49m[41mI[49m[41mn[49m[41mi[49m[41mt[49m } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { Http, Headers, Response, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts]             'Http' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Injectable, OnInit } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { [41mH[49m[41mt[49m[41mt[49m[41mp[49m, Headers, Response, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts]             'Response' is declared but its value is never read. 
+[app-scripts] [33m[10:38:52]  tslint: src/services/attendance.ts, line: 2 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/attendance.ts, line: 2 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/attendance.ts, line: 2 [39m
+[app-scripts] [2m       L1:  [22mimport { Injectable, OnInit } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { Http, Headers, [41mR[49m[41me[49m[41ms[49m[41mp[49m[41mo[49m[41mn[49m[41ms[49m[41me[49m, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts]             'URLSearchParams' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Injectable, OnInit } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { Http, Headers, Response, RequestOptions, [41mU[49m[41mR[49m[41mL[49m[41mS[49m[41me[49m[41ma[49m[41mr[49m[41mc[49m[41mh[49m[41mP[49m[41ma[49m[41mr[49m[41ma[49m[41mm[49m[41ms[49m } from '@angular/http';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L4:  [22mimport 'rxjs/add/operator/map';
+[app-scripts] [2m       L5:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Observable } from 'rxjs/Observable';
+[app-scripts] [2m       L6:  [22mimport 'rxjs/add/observable/of';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L12:  [22mimport { ConfigService } from "./config";
+[app-scripts] [2m      L13:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { ArrayType } from '@angular/compiler/src/output/output_ast';
+[app-scripts] [33m[10:38:52]  tslint: src/services/attendance.ts, line: 5 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/attendance.ts, line: 13 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/users.ts, line: 52 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/users.ts, line: 62 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/users.ts, line: 2 [39m
+[app-scripts]             'baseUrl' is declared but its value is never read. 
+[app-scripts] [2m      L52:  [22m    private [41mb[49m[41ma[49m[41ms[49m[41me[49m[41mU[49m[41mr[49m[41ml[49m:string;
+[app-scripts]             Property 'camera' is declared but its value is never read. 
+[app-scripts] [2m      L61:  [22mpublic forum:ForumService,
+[app-scripts] [2m      L62:  [22mprivate [41mc[49m[41ma[49m[41mm[49m[41me[49m[41mr[49m[41ma[49m: Camera,
+[app-scripts] [2m      L63:  [22mpublic attendance:AttendanceService
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L1:  [22mimport { Injectable} from '@angular/core';
+[app-scripts] [2m       L2:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Http, Headers, Response, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts] [2m       L3:  [22mimport 'rxjs/add/operator/map';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L5:  [22mimport 'rxjs/add/observable/of';
+[app-scripts] [33m[10:38:52]  tslint: src/services/users.ts, line: 6 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/users.ts, line: 22 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/blog.ts, line: 2 [39m
+[app-scripts] [2m       L6:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { CacheService } from "ionic-cache";
+[app-scripts] [2m       L7:  [22mimport { ToastController} from 'ionic-angular';
+[app-scripts]             'CameraOptions' is declared but its value is never read. 
+[app-scripts] [2m      L21:  [22mimport { ForumService } from "./forum";
+[app-scripts] [2m      L22:  [22mimport { Camera, [41mC[49m[41ma[49m[41mm[49m[41me[49m[41mr[49m[41ma[49m[41mO[49m[41mp[49m[41mt[49m[41mi[49m[41mo[49m[41mn[49m[41ms[49m } from '@ionic-native/camera';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L1:  [22mimport { Injectable } from '@angular/core';
+[app-scripts] [2m       L2:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Http, Headers, Response, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts] [2m       L3:  [22mimport { Storage } from '@ionic/storage';
+[app-scripts]             Property 'config' is declared but its value is never read. 
+[app-scripts] [2m      L16:  [22mprivate blog:BlogService,
+[app-scripts] [2m      L17:  [22mprivate [41mc[49m[41mo[49m[41mn[49m[41mf[49m[41mi[49m[41mg[49m:ConfigService,
+[app-scripts] [2m      L18:  [22mprivate loadingController:LoadingController) {
+[app-scripts]             'OnInit' is declared but its value is never read. 
+[app-scripts] [33m[10:38:52]  tslint: src/pages/post/post.ts, line: 17 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/post/post.ts, line: 1 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/course.ts, line: 32 [39m
+[app-scripts] [2m       L1:  [22mimport { Component,[41mO[49m[41mn[49m[41mI[49m[41mn[49m[41mi[49m[41mt[49m } from '@angular/core';
+[app-scripts]             'observable' is declared but its value is never read. 
+[app-scripts] [2m      L32:  [22m    private [41mo[49m[41mb[49m[41ms[49m[41me[49m[41mr[49m[41mv[49m[41ma[49m[41mb[49m[41ml[49m[41me[49m: Observable<any>; //Tracks request in progress
+[app-scripts] [2m      L33:  [22m    private allcoursesobservable: Observable<any>;
+[app-scripts]             'extractData' is declared but its value is never read. 
+[app-scripts] [33m[10:38:52]  tslint: src/services/course.ts, line: 62 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/course.ts, line: 74 [39m
+[app-scripts] [2m      L62:  [22m  	private [41me[49m[41mx[49m[41mt[49m[41mr[49m[41ma[49m[41mc[49m[41mt[49m[41mD[49m[41ma[49m[41mt[49m[41ma[49m(response: Response) {
+[app-scripts] [2m      L63:  [22m        let body = response.json();
+[app-scripts]             'handleError' is declared but its value is never read. 
+[app-scripts] [2m      L74:  [22mprivate [41mh[49m[41ma[49m[41mn[49m[41md[49m[41ml[49m[41me[49m[41mE[49m[41mr[49m[41mr[49m[41mo[49m[41mr[49m(error: Response) {
+[app-scripts] [2m      L75:  [22m       console.log(error);
+[app-scripts]             'count' is declared but its value is never read. 
+[app-scripts] [33m[10:38:52]  tslint: src/services/course.ts, line: 94 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/course.ts, line: 165 [39m
+[app-scripts] [2m      L94:  [22m            let [41mc[49m[41mo[49m[41mu[49m[41mn[49m[41mt[49m:number=0;
+[app-scripts] [2m      L95:  [22m            count = paged*this.config.settings.per_view - this.courses.length;
+[app-scripts]             'res' is declared but its value is never read. 
+[app-scripts] [2m     L164:  [22mlet body = response.json();
+[app-scripts] [2m     L165:  [22mlet [41mr[49m[41me[49m[41ms[49m=[];
+[app-scripts] [2m     L166:  [22mthis.catobservable = null;
+[app-scripts]             'res' is declared but its value is never read. 
+[app-scripts] [2m     L200:  [22mlet body = response.json();
+[app-scripts] [2m     L201:  [22mlet [41mr[49m[41me[49m[41ms[49m=[];
+[app-scripts] [33m[10:38:52]  tslint: src/services/course.ts, line: 201 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/course.ts, line: 239 [39m
+[app-scripts] [2m     L202:  [22mthis.locobservable = null;
+[app-scripts]             'res' is declared but its value is never read. 
+[app-scripts] [2m     L238:  [22mlet body = response.json();
+[app-scripts] [2m     L239:  [22mlet [41mr[49m[41me[49m[41ms[49m=[];
+[app-scripts] [2m     L240:  [22mthis.levobservable = null;
+[app-scripts] [33m[10:38:52]  tslint: src/services/course.ts, line: 294 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/course.ts, line: 296 [39m
+[app-scripts]             'k' is declared but its value is never read. 
+[app-scripts] [2m     L293:  [22m}else{
+[app-scripts] [2m     L294:  [22m    let [41mk[49m = 0;
+[app-scripts] [2m     L295:  [22m    if(this.fullCourses){
+[app-scripts]             'k' is declared but its value is never read. 
+[app-scripts] [2m     L295:  [22mif(this.fullCourses){
+[app-scripts] [2m     L296:  [22m    let [41mk[49m = this.fullCourses.length;
+[app-scripts]             'getIndexByKeyValue' is declared but its value is never read. 
+[app-scripts] [33m[10:38:52]  tslint: src/services/course.ts, line: 515 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/course.ts, line: 525 [39m
+[app-scripts] [2m     L515:  [22m    private [41mg[49m[41me[49m[41mt[49m[41mI[49m[41mn[49m[41md[49m[41me[49m[41mx[49m[41mB[49m[41my[49m[41mK[49m[41me[49m[41my[49m[41mV[49m[41ma[49m[41ml[49m[41mu[49m[41me[49m(arraytosearch, key, valuetosearch) {
+[app-scripts]             'copyobject' is declared but its value is never read. 
+[app-scripts] [2m     L525:  [22m    private  [41mc[49m[41mo[49m[41mp[49m[41my[49m[41mo[49m[41mb[49m[41mj[49m[41me[49m[41mc[49m[41mt[49m(srcObj:any, destObj:any) {
+[app-scripts] [2m     L526:  [22m        for (var key in destObj) {
+[app-scripts]             'OnInit' is declared but its value is never read. 
+[app-scripts] [33m[10:38:52]  tslint: src/services/course.ts, line: 1 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/course.ts, line: 2 [39m
+[app-scripts] [2m       L1:  [22mimport { Injectable, [41mO[49m[41mn[49m[41mI[49m[41mn[49m[41mi[49m[41mt[49m } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { Http, Headers, Response, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts]             'Http' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Injectable, OnInit } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { [41mH[49m[41mt[49m[41mt[49m[41mp[49m, Headers, Response, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts]             'Headers' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Injectable, OnInit } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { Http, [41mH[49m[41me[49m[41ma[49m[41md[49m[41me[49m[41mr[49m[41ms[49m, Response, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts] [33m[10:38:52]  tslint: src/services/course.ts, line: 2 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/course.ts, line: 2 [39m
+[app-scripts]             'Response' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Injectable, OnInit } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { Http, Headers, [41mR[49m[41me[49m[41ms[49m[41mp[49m[41mo[49m[41mn[49m[41ms[49m[41me[49m, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts]             'RequestOptions' is declared but its value is never read. 
+[app-scripts] [33m[10:38:52]  tslint: src/services/course.ts, line: 2 [39m
+[app-scripts] [2m       L1:  [22mimport { Injectable, OnInit } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { Http, Headers, Response, [41mR[49m[41me[49m[41mq[49m[41mu[49m[41me[49m[41ms[49m[41mt[49m[41mO[49m[41mp[49m[41mt[49m[41mi[49m[41mo[49m[41mn[49m[41ms[49m, URLSearchParams } from '@angular/http';
+[app-scripts]             Property 'navCtrl' is declared but its value is never read. 
+[app-scripts] [2m      L24:  [22mprivate viewCtrl: ViewController,
+[app-scripts] [33m[10:38:52]  tslint: src/pages/reviewcourse/reviewcourse.ts, line: 25 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/reviewcourse/reviewcourse.ts, line: 28 [39m
+[app-scripts] [2m      L25:  [22mprivate [41mn[49m[41ma[49m[41mv[49m[41mC[49m[41mt[49m[41mr[49m[41ml[49m: NavController, 
+[app-scripts] [2m      L26:  [22mprivate navParams: NavParams,
+[app-scripts]             Property 'config' is declared but its value is never read. 
+[app-scripts] [2m      L27:  [22mprivate userService: UserService,
+[app-scripts] [2m      L28:  [22mprivate [41mc[49m[41mo[49m[41mn[49m[41mf[49m[41mi[49m[41mg[49m:ConfigService,
+[app-scripts] [2m      L29:  [22mprivate loadingCtrl:LoadingController){
+[app-scripts] [33m[10:38:52]  tslint: src/pages/reviewcourse/reviewcourse.ts, line: 1 [39m
+[app-scripts]             'OnInit' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Component, [41mO[49m[41mn[49m[41mI[49m[41mn[49m[41mi[49m[41mt[49m } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { FormGroup,FormControl, Validators } from '@angular/forms';
+[app-scripts]             'OnInit' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Component, [41mO[49m[41mn[49m[41mI[49m[41mn[49m[41mi[49m[41mt[49m, Input , Output, EventEmitter } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { ConfigService } from '../../services/config';
+[app-scripts] [33m[10:38:52]  tslint: src/components/friendlytime/friendlytime.ts, line: 1 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/components/friendlytime/friendlytime.ts, line: 1 [39m
+[app-scripts]             'Output' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Component, OnInit, Input , [41mO[49m[41mu[49m[41mt[49m[41mp[49m[41mu[49m[41mt[49m, EventEmitter } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { ConfigService } from '../../services/config';
+[app-scripts]             'EventEmitter' is declared but its value is never read. 
+[app-scripts] [33m[10:38:52]  tslint: src/components/friendlytime/friendlytime.ts, line: 1 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/components/question/question.ts, line: 288 [39m
+[app-scripts] [2m       L1:  [22mimport { Component, OnInit, Input , Output, [41mE[49m[41mv[49m[41me[49m[41mn[49m[41mt[49m[41mE[49m[41mm[49m[41mi[49m[41mt[49m[41mt[49m[41me[49m[41mr[49m } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { ConfigService } from '../../services/config';
+[app-scripts]             Duplicate variable: 'correct' 
+[app-scripts] [2m     L287:  [22mif(this.question.marked){
+[app-scripts] [2m     L288:  [22m    var [41mc[49m[41mo[49m[41mr[49m[41mr[49m[41me[49m[41mc[49m[41mt[49m = this.question.marked.split(',');;
+[app-scripts] [2m     L289:  [22m    if(correct.length){
+[app-scripts]             Duplicate variable: 'correct' 
+[app-scripts] [33m[10:38:52]  tslint: src/components/question/question.ts, line: 303 [39m
+[app-scripts] [2m     L302:  [22mif(this.question.marked){
+[app-scripts] [2m     L303:  [22m    var [41mc[49m[41mo[49m[41mr[49m[41mr[49m[41me[49m[41mc[49m[41mt[49m = this.question.marked.split(',');;
+[app-scripts] [2m     L304:  [22m    if(correct.length){
+[app-scripts]             Duplicate variable: 'correct' 
+[app-scripts] [33m[10:38:52]  tslint: src/components/question/question.ts, line: 346 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/components/question/question.ts, line: 359 [39m
+[app-scripts] [2m     L346:  [22m var [41mc[49m[41mo[49m[41mr[49m[41mr[49m[41me[49m[41mc[49m[41mt[49m = this.question.correct.split('|');
+[app-scripts] [2m     L347:  [22m if(correct.length){
+[app-scripts]             Duplicate variable: 'correct' 
+[app-scripts] [2m     L358:  [22manswer = '';
+[app-scripts] [2m     L359:  [22mvar [41mc[49m[41mo[49m[41mr[49m[41mr[49m[41me[49m[41mc[49m[41mt[49m = this.question.correct.split('|');
+[app-scripts] [2m     L360:  [22mif(correct.length){
+[app-scripts]             'OnInit' is declared but its value is never read. 
+[app-scripts] [33m[10:38:52]  tslint: src/components/question/question.ts, line: 1 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/components/question/question.ts, line: 3 [39m
+[app-scripts] [2m       L1:  [22mimport { Component, Input, [41mO[49m[41mn[49m[41mI[49m[41mn[49m[41mi[49m[41mt[49m, Output, EventEmitter } from '@angular/core';
+[app-scripts]             'DragulaModule' is declared but its value is never read. 
+[app-scripts] [2m       L3:  [22mimport { [41mD[49m[41mr[49m[41ma[49m[41mg[49m[41mu[49m[41ml[49m[41ma[49m[41mM[49m[41mo[49m[41md[49m[41mu[49m[41ml[49m[41me[49m,DragulaService } from 'ng2-dragula';
+[app-scripts]             'observable' is declared but its value is never read. 
+[app-scripts] [2m      L23:  [22m	private [41mo[49m[41mb[49m[41ms[49m[41me[49m[41mr[49m[41mv[49m[41ma[49m[41mb[49m[41ml[49m[41me[49m: Observable<any>; 
+[app-scripts] [33m[10:38:52]  tslint: src/services/quiz.ts, line: 23 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/quiz.ts, line: 25 [39m
+[app-scripts]             Property 'http' is declared but its value is never read. 
+[app-scripts] [2m      L25:  [22m    constructor(private [41mh[49m[41mt[49m[41mt[49m[41mp[49m:Http,
+[app-scripts] [2m      L26:  [22m        private userService: UserService,
+[app-scripts]             Property 'config' is declared but its value is never read. 
+[app-scripts] [33m[10:38:52]  tslint: src/services/quiz.ts, line: 28 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/quiz.ts, line: 1 [39m
+[app-scripts] [2m      L27:  [22mprivate storage: Storage,
+[app-scripts] [2m      L28:  [22mprivate [41mc[49m[41mo[49m[41mn[49m[41mf[49m[41mi[49m[41mg[49m:ConfigService) {
+[app-scripts]             'OnInit' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Injectable, [41mO[49m[41mn[49m[41mI[49m[41mn[49m[41mi[49m[41mt[49m } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { Http, Headers, Response, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L1:  [22mimport { Injectable, OnInit } from '@angular/core';
+[app-scripts] [2m       L2:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Http, Headers, Response, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts] [2m       L3:  [22mimport 'rxjs/add/operator/map';
+[app-scripts] [33m[10:38:52]  tslint: src/services/quiz.ts, line: 2 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/quiz.ts, line: 6 [39m
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L5:  [22mimport 'rxjs/add/observable/of';
+[app-scripts] [2m       L6:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { CacheService } from "ionic-cache";
+[app-scripts]             Property 'config' is declared but its value is never read. 
+[app-scripts] [33m[10:38:52]  tslint: src/components/timer/timer.ts, line: 26 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/components/timer/timer.ts, line: 1 [39m
+[app-scripts] [2m      L26:  [22m  constructor(private quizService:QuizService,private [41mc[49m[41mo[49m[41mn[49m[41mf[49m[41mi[49m[41mg[49m:ConfigService) {
+[app-scripts]             'OnInit' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Component, Input, [41mO[49m[41mn[49m[41mI[49m[41mn[49m[41mi[49m[41mt[49m, Output, EventEmitter, OnChanges } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport {Observable} from 'rxjs/Rx';
+[app-scripts] [33m[10:38:52]  tslint: src/components/timer/timer.ts, line: 1 [39m
+[app-scripts]             'OnChanges' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Component, Input, OnInit, Output, EventEmitter, [41mO[49m[41mn[49m[41mC[49m[41mh[49m[41ma[49m[41mn[49m[41mg[49m[41me[49m[41ms[49m } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport {Observable} from 'rxjs/Rx';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [33m[10:38:52]  tslint: src/models/status.ts, line: 1 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/models/status.ts, line: 2 [39m
+[app-scripts] [2m       L1:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Course } from './course';
+[app-scripts] [2m       L2:  [22mimport { User } from './user';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L1:  [22mimport { Course } from './course';
+[app-scripts] [2m       L2:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { User } from './user';
+[app-scripts]             'quizobservable' is declared but its value is never read. 
+[app-scripts] [2m      L28:  [22mprivate statusobservable: Observable<any>;
+[app-scripts] [33m[10:38:52]  tslint: src/services/status.ts, line: 29 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/status.ts, line: 31 [39m
+[app-scripts] [2m      L29:  [22mprivate [41mq[49m[41mu[49m[41mi[49m[41mz[49m[41mo[49m[41mb[49m[41ms[49m[41me[49m[41mr[49m[41mv[49m[41ma[49m[41mb[49m[41ml[49m[41me[49m: Observable<any>;
+[app-scripts] [2m      L30:  [22mprivate retakeobservable: Observable<any>;
+[app-scripts]             'baseUrl' is declared but its value is never read. 
+[app-scripts] [2m      L30:  [22mprivate retakeobservable: Observable<any>;
+[app-scripts] [2m      L31:  [22mprivate [41mb[49m[41ma[49m[41ms[49m[41me[49m[41mU[49m[41mr[49m[41ml[49m;
+[app-scripts] [2m      L32:  [22mpublic assignments:any;
+[app-scripts]             'cacheKey' is declared but its value is never read. 
+[app-scripts] [2m      L65:  [22m            let url = `${this.config.baseUrl}user/coursestatus/`+status.course_id;
+[app-scripts] [33m[10:38:52]  tslint: src/services/status.ts, line: 66 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/status.ts, line: 74 [39m
+[app-scripts] [2m      L66:  [22m            let [41mc[49m[41ma[49m[41mc[49m[41mh[49m[41me[49m[41mK[49m[41me[49m[41my[49m = url;
+[app-scripts]             'k' is declared but its value is never read. 
+[app-scripts] [2m      L74:  [22m                let [41mk[49m = this.courseStatuses.length;
+[app-scripts]             'k' is declared but its value is never read. 
+[app-scripts] [2m     L163:  [22m                let [41mk[49m = this.courseStatuses.length;
+[app-scripts] [33m[10:38:52]  tslint: src/services/status.ts, line: 163 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/status.ts, line: 395 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/status.ts, line: 1 [39m
+[app-scripts]             'k' is declared but its value is never read. 
+[app-scripts] [2m     L395:  [22m                let [41mk[49m = this.courseStatuses.length;
+[app-scripts]             'OnInit' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Injectable,[41mO[49m[41mn[49m[41mI[49m[41mn[49m[41mi[49m[41mt[49m } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { Http, Headers, Response, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [33m[10:38:52]  tslint: src/services/status.ts, line: 2 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/status.ts, line: 10 [39m
+[app-scripts] [2m       L1:  [22mimport { Injectable,OnInit } from '@angular/core';
+[app-scripts] [2m       L2:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Http, Headers, Response, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L10:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Course } from "../models/course";
+[app-scripts] [2m      L11:  [22mimport { CourseStatus } from "../models/status";
+[app-scripts]             'ElementRef' is declared but its value is never read. 
+[app-scripts] [33m[10:38:52]  tslint: src/components/absolute-drag/absolute-drag.ts, line: 1 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/components/absolute-drag/absolute-drag.ts, line: 1 [39m
+[app-scripts] [2m       L1:  [22mimport { Directive, Input, [41mE[49m[41ml[49m[41me[49m[41mm[49m[41me[49m[41mn[49m[41mt[49m[41mR[49m[41me[49m[41mf[49m, Renderer } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { DomController } from 'ionic-angular';
+[app-scripts]             'Renderer' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Directive, Input, ElementRef, [41mR[49m[41me[49m[41mn[49m[41md[49m[41me[49m[41mr[49m[41me[49m[41mr[49m } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { DomController } from 'ionic-angular';
+[app-scripts] [33m[10:38:52]  tslint: src/directives/pinch-zoom.directive.ts, line: 1 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/directives/pinch-zoom.directive.ts, line: 1 [39m
+[app-scripts]             'ElementRef' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Directive, [41mE[49m[41ml[49m[41me[49m[41mm[49m[41me[49m[41mn[49m[41mt[49m[41mR[49m[41me[49m[41mf[49m, Input, OnInit, OnDestroy, Renderer } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { Gesture } from 'ionic-angular/gestures/gesture';
+[app-scripts]             'Input' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Directive, ElementRef, [41mI[49m[41mn[49m[41mp[49m[41mu[49m[41mt[49m, OnInit, OnDestroy, Renderer } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { Gesture } from 'ionic-angular/gestures/gesture';
+[app-scripts]             'OnInit' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Directive, ElementRef, Input, [41mO[49m[41mn[49m[41mI[49m[41mn[49m[41mi[49m[41mt[49m, OnDestroy, Renderer } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { Gesture } from 'ionic-angular/gestures/gesture';
+[app-scripts] [33m[10:38:52]  tslint: src/directives/pinch-zoom.directive.ts, line: 1 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/directives/pinch-zoom.directive.ts, line: 1 [39m
+[app-scripts]             'OnDestroy' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Directive, ElementRef, Input, OnInit, [41mO[49m[41mn[49m[41mD[49m[41me[49m[41ms[49m[41mt[49m[41mr[49m[41mo[49m[41my[49m, Renderer } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { Gesture } from 'ionic-angular/gestures/gesture';
+[app-scripts]             'Renderer' is declared but its value is never read. 
+[app-scripts] [33m[10:38:52]  tslint: src/directives/pinch-zoom.directive.ts, line: 1 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pipes/orderby.ts, line: 1 [39m
+[app-scripts] [2m       L1:  [22mimport { Directive, ElementRef, Input, OnInit, OnDestroy, [41mR[49m[41me[49m[41mn[49m[41md[49m[41me[49m[41mr[49m[41me[49m[41mr[49m } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { Gesture } from 'ionic-angular/gestures/gesture';
+[app-scripts]             'PipeTransform' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Pipe, [41mP[49m[41mi[49m[41mp[49m[41me[49m[41mT[49m[41mr[49m[41ma[49m[41mn[49m[41ms[49m[41mf[49m[41mo[49m[41mr[49m[41mm[49m } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport {SafeResourceUrl, DomSanitizer} from '@angular/platform-browser';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L1:  [22mimport { Pipe, PipeTransform } from '@angular/core';
+[app-scripts] [33m[10:38:52]  tslint: src/pipes/orderby.ts, line: 2 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/notes_discussions.ts, line: 24 [39m
+[app-scripts] [2m       L2:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m {SafeResourceUrl, DomSanitizer} from '@angular/platform-browser';
+[app-scripts]             'lastpushed' is declared but its value is never read. 
+[app-scripts] [2m      L23:  [22mpublic comments:any=[];
+[app-scripts] [2m      L24:  [22m   private [41ml[49m[41ma[49m[41ms[49m[41mt[49m[41mp[49m[41mu[49m[41ms[49m[41mh[49m[41me[49m[41md[49m:number=0;
+[app-scripts] [2m      L25:  [22mprivate observable: Observable<any>; //Tracks request in progress
+[app-scripts]             'observable' is declared but its value is never read. 
+[app-scripts] [2m      L24:  [22m   private lastpushed:number=0;
+[app-scripts] [33m[10:38:52]  tslint: src/services/notes_discussions.ts, line: 25 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/notes_discussions.ts, line: 34 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/notes_discussions.ts, line: 4 [39m
+[app-scripts] [2m      L25:  [22mprivate [41mo[49m[41mb[49m[41ms[49m[41me[49m[41mr[49m[41mv[49m[41ma[49m[41mb[49m[41ml[49m[41me[49m: Observable<any>; //Tracks request in progress
+[app-scripts] [2m      L26:  [22mpublic unit_id:number;
+[app-scripts]             Property 'platform' is declared but its value is never read. 
+[app-scripts] [2m      L33:  [22mprivate http:Http,
+[app-scripts] [2m      L34:  [22mprivate [41mp[49m[41ml[49m[41ma[49m[41mt[49m[41mf[49m[41mo[49m[41mr[49m[41mm[49m : Platform,
+[app-scripts] [2m      L35:  [22m 	private storage: Storage,
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L3:  [22m// import { Component,OnInit } from '@angular/core';
+[app-scripts] [2m       L4:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Http, Headers, Response, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts] [2m       L5:  [22mimport { Platform, ToastController } from 'ionic-angular';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L13:  [22mimport { Storage } from '@ionic/storage';
+[app-scripts] [2m      L14:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Comment } from "../models/comment";
+[app-scripts]             'IonicPage' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Component } from '@angular/core';
+[app-scripts] [33m[10:38:52]  tslint: src/services/notes_discussions.ts, line: 14 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/add-edit-unit-comment/add-edit-unit-comment.ts, line: 2 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/unitcomment/unitcomment.ts, line: 25 [39m
+[app-scripts] [2m       L2:  [22mimport { [41mI[49m[41mo[49m[41mn[49m[41mi[49m[41mc[49m[41mP[49m[41ma[49m[41mg[49m[41me[49m, NavController, NavParams } from 'ionic-angular';
+[app-scripts]             'noMoreCommentsAvailable' is declared but its value is never read. 
+[app-scripts] [2m      L25:  [22m	private [41mn[49m[41mo[49m[41mM[49m[41mo[49m[41mr[49m[41me[49m[41mC[49m[41mo[49m[41mm[49m[41mm[49m[41me[49m[41mn[49m[41mt[49m[41ms[49m[41mA[49m[41mv[49m[41ma[49m[41mi[49m[41ml[49m[41ma[49m[41mb[49m[41ml[49m[41me[49m:boolean = false;
+[app-scripts]             Property 'notes' is declared but its value is never read. 
+[app-scripts] [2m      L28:  [22mpublic navParams: NavParams,		
+[app-scripts] [2m      L29:  [22m  	   private [41mn[49m[41mo[49m[41mt[49m[41me[49m[41ms[49m:NotesDiscussionService,
+[app-scripts] [33m[10:38:52]  tslint: src/pages/unitcomment/unitcomment.ts, line: 29 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/unitcomment/unitcomment.ts, line: 32 [39m
+[app-scripts] [2m      L30:  [22m  	   public notesanddiscussion:NotesDiscussionService,
+[app-scripts]             Property 'loadingCtrl' is declared but its value is never read. 
+[app-scripts] [2m      L31:  [22mpublic alertCtrl:AlertController,
+[app-scripts] [2m      L32:  [22mprivate [41ml[49m[41mo[49m[41ma[49m[41md[49m[41mi[49m[41mn[49m[41mg[49m[41mC[49m[41mt[49m[41mr[49m[41ml[49m:LoadingController,
+[app-scripts] [2m      L33:  [22mprivate config:ConfigService) {
+[app-scripts]             Property 'config' is declared but its value is never read. 
+[app-scripts] [2m      L32:  [22m  	   private loadingCtrl:LoadingController,
+[app-scripts] [33m[10:38:52]  tslint: src/pages/unitcomment/unitcomment.ts, line: 33 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/unitcomment/unitcomment.ts, line: 1 [39m
+[app-scripts] [2m      L33:  [22m  	   private [41mc[49m[41mo[49m[41mn[49m[41mf[49m[41mi[49m[41mg[49m:ConfigService) {
+[app-scripts] [2m      L34:  [22mconsole.log('constructor unit comment page');
+[app-scripts]             'OnInit' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Component,[41mO[49m[41mn[49m[41mI[49m[41mn[49m[41mi[49m[41mt[49m } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { IonicPage } from 'ionic-angular';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [33m[10:38:52]  tslint: src/pages/unitcomment/unitcomment.ts, line: 2 [39m
+[app-scripts] [2m       L1:  [22mimport { Component,OnInit } from '@angular/core';
+[app-scripts] [2m       L2:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { IonicPage } from 'ionic-angular';
+[app-scripts] [2m       L3:  [22mimport { NavController, NavParams, ModalController,LoadingController } from 'ionic-angular';
+[app-scripts]             'ModalController' is declared but its value is never read. 
+[app-scripts] [2m       L2:  [22mimport { IonicPage } from 'ionic-angular';
+[app-scripts] [33m[10:38:52]  tslint: src/pages/unitcomment/unitcomment.ts, line: 3 [39m
+[app-scripts] [2m       L3:  [22mimport { NavController, NavParams, [41mM[49m[41mo[49m[41md[49m[41ma[49m[41ml[49m[41mC[49m[41mo[49m[41mn[49m[41mt[49m[41mr[49m[41mo[49m[41ml[49m[41ml[49m[41me[49m[41mr[49m,LoadingController } from 'ionic-angular';
+[app-scripts] [2m       L4:  [22mimport { AlertController } from 'ionic-angular';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L4:  [22mimport { AlertController } from 'ionic-angular';
+[app-scripts] [33m[10:38:52]  tslint: src/pages/unitcomment/unitcomment.ts, line: 5 [39m
+[app-scripts] [2m       L5:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { FormBuilder, FormGroup,FormControl, Validators, } from '@angular/forms';
+[app-scripts] [2m       L6:  [22mimport { NotesDiscussionService } from "../../services/notes_discussions"; 
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L7:  [22mimport { ConfigService } from '../../services/config';
+[app-scripts] [2m       L8:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Observable } from 'rxjs/Observable';
+[app-scripts] [2m       L9:  [22mimport { Chart } from 'chart.js';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L8:  [22mimport { Observable } from 'rxjs/Observable';
+[app-scripts] [2m       L9:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Chart } from 'chart.js';
+[app-scripts]             'observable' is declared but its value is never read. 
+[app-scripts] [2m      L22:  [22mpublic assignmentobservable:Observable<any>;
+[app-scripts] [2m      L23:  [22mprivate [41mo[49m[41mb[49m[41ms[49m[41me[49m[41mr[49m[41mv[49m[41ma[49m[41mb[49m[41ml[49m[41me[49m: Observable<any>; //Tracks request in progress
+[app-scripts] [2m      L24:  [22mpublic assignment_id:number;
+[app-scripts]             Property 'platform' is declared but its value is never read. 
+[app-scripts] [2m      L29:  [22mprivate http:Http,
+[app-scripts] [2m      L30:  [22mprivate [41mp[49m[41ml[49m[41ma[49m[41mt[49m[41mf[49m[41mo[49m[41mr[49m[41mm[49m : Platform,
+[app-scripts] [2m      L31:  [22mprivate storage: Storage,
+[app-scripts]             Property 'loadingCtrl' is declared but its value is never read. 
+[app-scripts] [2m      L34:  [22mprivate config:ConfigService,
+[app-scripts] [2m      L35:  [22m private [41ml[49m[41mo[49m[41ma[49m[41md[49m[41mi[49m[41mn[49m[41mg[49m[41mC[49m[41mt[49m[41mr[49m[41ml[49m:LoadingController
+[app-scripts] [2m      L36:  [22m){
+[app-scripts]             'options' is declared but its value is never read. 
+[app-scripts] [2m      L72:  [22m// for body form set 
+[app-scripts] [2m      L73:  [22mvar [41mo[49m[41mp[49m[41mt[49m[41mi[49m[41mo[49m[41mn[49m[41ms[49m = {};
+[app-scripts] [2m      L74:  [22mlet body_form_data    = new FormData();
+[app-scripts]             'NavController' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Injectable } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { [41mN[49m[41ma[49m[41mv[49m[41mC[49m[41mo[49m[41mn[49m[41mt[49m[41mr[49m[41mo[49m[41ml[49m[41ml[49m[41me[49m[41mr[49m, NavParams, ModalController,LoadingController } from 'ionic-angular';
+[app-scripts] [2m       L3:  [22m// import { Component,OnInit } from '@angular/core';
+[app-scripts]             'NavParams' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Injectable } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { NavController, [41mN[49m[41ma[49m[41mv[49m[41mP[49m[41ma[49m[41mr[49m[41ma[49m[41mm[49m[41ms[49m, ModalController,LoadingController } from 'ionic-angular';
+[app-scripts] [2m       L3:  [22m// import { Component,OnInit } from '@angular/core';
+[app-scripts]             'ModalController' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Injectable } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { NavController, NavParams, [41mM[49m[41mo[49m[41md[49m[41ma[49m[41ml[49m[41mC[49m[41mo[49m[41mn[49m[41mt[49m[41mr[49m[41mo[49m[41ml[49m[41ml[49m[41me[49m[41mr[49m,LoadingController } from 'ionic-angular';
+[app-scripts] [2m       L3:  [22m// import { Component,OnInit } from '@angular/core';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L3:  [22m// import { Component,OnInit } from '@angular/core';
+[app-scripts] [2m       L4:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Http, Headers, Response, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts] [2m       L5:  [22mimport { Platform, ToastController } from 'ionic-angular';
+[app-scripts]             Property 'camera' is declared but its value is never read. 
+[app-scripts] [2m      L55:  [22m	   public config:ConfigService,
+[app-scripts] [2m      L56:  [22mprivate [41mc[49m[41ma[49m[41mm[49m[41me[49m[41mr[49m[41ma[49m: Camera,
+[app-scripts] [2m      L57:  [22mprivate storage:Storage,
+[app-scripts]             Property 'storage' is declared but its value is never read. 
+[app-scripts] [2m      L56:  [22mprivate camera: Camera,
+[app-scripts] [2m      L57:  [22mprivate [41ms[49m[41mt[49m[41mo[49m[41mr[49m[41ma[49m[41mg[49m[41me[49m:Storage,
+[app-scripts] [33m[10:38:52]  tslint: src/pages/unitcomment/unitcomment.ts, line: 8 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/unitcomment/unitcomment.ts, line: 9 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/upload_assignment.ts, line: 23 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/upload_assignment.ts, line: 30 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/upload_assignment.ts, line: 35 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/upload_assignment.ts, line: 73 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/upload_assignment.ts, line: 2 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/upload_assignment.ts, line: 2 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/upload_assignment.ts, line: 2 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/services/upload_assignment.ts, line: 4 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/uploadassignment/uploadassignment.ts, line: 56 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/uploadassignment/uploadassignment.ts, line: 57 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/uploadassignment/uploadassignment.ts, line: 58 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/uploadassignment/uploadassignment.ts, line: 59 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/uploadassignment/uploadassignment.ts, line: 1 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/uploadassignment/uploadassignment.ts, line: 2 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/uploadassignment/uploadassignment.ts, line: 3 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/uploadassignment/uploadassignment.ts, line: 14 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/uploadassignment/uploadassignment.ts, line: 17 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/uploadassignment/uploadassignment.ts, line: 18 [39m
+[app-scripts] [2m      L58:  [22m	   private action:ActionSheetController,
+[app-scripts]             Property 'action' is declared but its value is never read. 
+[app-scripts] [2m      L57:  [22mprivate storage:Storage,
+[app-scripts] [2m      L58:  [22m	   private [41ma[49m[41mc[49m[41mt[49m[41mi[49m[41mo[49m[41mn[49m:ActionSheetController,
+[app-scripts] [2m      L59:  [22m	   private transfer: FileTransfer,
+[app-scripts]             Property 'transfer' is declared but its value is never read. 
+[app-scripts] [2m      L58:  [22mprivate action:ActionSheetController,
+[app-scripts] [2m      L59:  [22mprivate [41mt[49m[41mr[49m[41ma[49m[41mn[49m[41ms[49m[41mf[49m[41me[49m[41mr[49m: FileTransfer,
+[app-scripts] [2m      L60:  [22mprivate toastCtrl: ToastController,
+[app-scripts]             'OnInit' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Component,[41mO[49m[41mn[49m[41mI[49m[41mn[49m[41mi[49m[41mt[49m } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { IonicPage } from 'ionic-angular';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L1:  [22mimport { Component,OnInit } from '@angular/core';
+[app-scripts] [2m       L2:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { IonicPage } from 'ionic-angular';
+[app-scripts] [2m       L3:  [22mimport { NavController, NavParams, ModalController,LoadingController } from 'ionic-angular';
+[app-scripts]             'ModalController' is declared but its value is never read. 
+[app-scripts] [2m       L2:  [22mimport { IonicPage } from 'ionic-angular';
+[app-scripts] [2m       L3:  [22mimport { NavController, NavParams, [41mM[49m[41mo[49m[41md[49m[41ma[49m[41ml[49m[41mC[49m[41mo[49m[41mn[49m[41mt[49m[41mr[49m[41mo[49m[41ml[49m[41ml[49m[41me[49m[41mr[49m,LoadingController } from 'ionic-angular';
+[app-scripts] [2m       L4:  [22mimport { AlertController, ActionSheetController ,ToastController} from 'ionic-angular';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L13:  [22mimport { Observable } from 'rxjs/Observable';
+[app-scripts] [2m      L14:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Chart } from 'chart.js';
+[app-scripts]             'CameraOptions' is declared but its value is never read. 
+[app-scripts] [2m      L16:  [22mimport { Storage } from '@ionic/storage';
+[app-scripts] [2m      L17:  [22mimport { Camera, [41mC[49m[41ma[49m[41mm[49m[41me[49m[41mr[49m[41ma[49m[41mO[49m[41mp[49m[41mt[49m[41mi[49m[41mo[49m[41mn[49m[41ms[49m } from '@ionic-native/camera';
+[app-scripts] [2m      L18:  [22mimport { FileTransfer, FileUploadOptions, FileTransferObject } from '@ionic-native/file-transfer';
+[app-scripts]             'FileUploadOptions' is declared but its value is never read. 
+[app-scripts] [2m      L17:  [22mimport { Camera, CameraOptions } from '@ionic-native/camera';
+[app-scripts] [2m      L18:  [22mimport { FileTransfer, [41mF[49m[41mi[49m[41ml[49m[41me[49m[41mU[49m[41mp[49m[41ml[49m[41mo[49m[41ma[49m[41md[49m[41mO[49m[41mp[49m[41mt[49m[41mi[49m[41mo[49m[41mn[49m[41ms[49m, FileTransferObject } from '@ionic-native/file-transfer';
+[app-scripts] [2m      L19:  [22mimport { File } from '@ionic-native/file';
+[app-scripts]             'FileTransferObject' is declared but its value is never read. 
+[app-scripts] [2m      L17:  [22mimport { Camera, CameraOptions } from '@ionic-native/camera';
+[app-scripts] [2m      L18:  [22mimport { FileTransfer, FileUploadOptions, [41mF[49m[41mi[49m[41ml[49m[41me[49m[41mT[49m[41mr[49m[41ma[49m[41mn[49m[41ms[49m[41mf[49m[41me[49m[41mr[49m[41mO[49m[41mb[49m[41mj[49m[41me[49m[41mc[49m[41mt[49m } from '@ionic-native/file-transfer';
+[app-scripts] [2m      L19:  [22mimport { File } from '@ionic-native/file';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L18:  [22mimport { FileTransfer, FileUploadOptions, FileTransferObject } from '@ionic-native/file-transfer';
+[app-scripts] [2m      L19:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { File } from '@ionic-native/file';
+[app-scripts]             Property 'transfer' is declared but its value is never read. 
+[app-scripts] [2m      L97:  [22mprivate iab: InAppBrowser,
+[app-scripts] [2m      L98:  [22mprivate [41mt[49m[41mr[49m[41ma[49m[41mn[49m[41ms[49m[41mf[49m[41me[49m[41mr[49m: FileTransfer,
+[app-scripts] [2m      L99:  [22mprivate file: File,
+[app-scripts]             'index' is declared but its value is never read. 
+[app-scripts] [2m     L505:  [22monQuestionSlide(){
+[app-scripts] [2m     L506:  [22m    let [41mi[49m[41mn[49m[41md[49m[41me[49m[41mx[49m = this.courseStatusItems.getActiveIndex();
+[app-scripts] [2m     L507:  [22m    this.content.scrollToTop();
+[app-scripts]             'extension' is declared but its value is never read. 
+[app-scripts] [2m     L877:  [22mlet name = url.substring(url.lastIndexOf('/')+1);
+[app-scripts] [2m     L878:  [22mlet [41me[49m[41mx[49m[41mt[49m[41me[49m[41mn[49m[41ms[49m[41mi[49m[41mo[49m[41mn[49m  = url.split('.').pop(); 
+[app-scripts] [2m     L879:  [22mconsole.log(name);
+[app-scripts]             'extension' is declared but its value is never read. 
+[app-scripts] [2m     L916:  [22mlet name = url.substring(url.lastIndexOf('/')+1);
+[app-scripts] [33m[10:38:52]  tslint: src/pages/uploadassignment/uploadassignment.ts, line: 18 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/uploadassignment/uploadassignment.ts, line: 19 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/course-status/course-status.ts, line: 98 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/course-status/course-status.ts, line: 506 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/course-status/course-status.ts, line: 878 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/course-status/course-status.ts, line: 917 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/course-status/course-status.ts, line: 1 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/course-status/course-status.ts, line: 1 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/course-status/course-status.ts, line: 1 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/course-status/course-status.ts, line: 2 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/course-status/course-status.ts, line: 3 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/course-status/course-status.ts, line: 14 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/course-status/course-status.ts, line: 15 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/course-status/course-status.ts, line: 16 [39m
+[app-scripts] [2m     L917:  [22mlet [41me[49m[41mx[49m[41mt[49m[41me[49m[41mn[49m[41ms[49m[41mi[49m[41mo[49m[41mn[49m  = url.split('.').pop(); 
+[app-scripts] [2m     L918:  [22mconsole.log(name);
+[app-scripts]             'OnInit' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Component, [41mO[49m[41mn[49m[41mI[49m[41mn[49m[41mi[49m[41mt[49m, ViewChild, Output, EventEmitter } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { Content,NavController, NavParams, ModalController,LoadingController, AlertController,Platform, Slides,ToastController } from 'ionic-angular';
+[app-scripts]             'Output' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Component, OnInit, ViewChild, [41mO[49m[41mu[49m[41mt[49m[41mp[49m[41mu[49m[41mt[49m, EventEmitter } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { Content,NavController, NavParams, ModalController,LoadingController, AlertController,Platform, Slides,ToastController } from 'ionic-angular';
+[app-scripts]             'EventEmitter' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Component, OnInit, ViewChild, Output, [41mE[49m[41mv[49m[41me[49m[41mn[49m[41mt[49m[41mE[49m[41mm[49m[41mi[49m[41mt[49m[41mt[49m[41me[49m[41mr[49m } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { Content,NavController, NavParams, ModalController,LoadingController, AlertController,Platform, Slides,ToastController } from 'ionic-angular';
+[app-scripts]             'Platform' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Component, OnInit, ViewChild, Output, EventEmitter } from '@angular/core';
+[app-scripts] [2m       L2:  [22marams, ModalController,LoadingController, AlertController,[41mP[49m[41ml[49m[41ma[49m[41mt[49m[41mf[49m[41mo[49m[41mr[49m[41mm[49m, Slides,ToastController } from 'ionic-ang
+[app-scripts] [2m       L3:  [22mimport {SafeResourceUrl, DomSanitizer} from '@angular/platform-browser';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L2:  [22mimport { Content,NavController, NavParams, ModalController,LoadingController, AlertController,Platform, Slides,ToastController } from 'ionic-angular';
+[app-scripts] [2m       L3:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m {SafeResourceUrl, DomSanitizer} from '@angular/platform-browser';
+[app-scripts] [2m       L4:  [22mimport { InAppBrowser } from '@ionic-native/in-app-browser';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L14:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { FriendlytimeComponent } from '../../components/friendlytime/friendlytime';
+[app-scripts] [2m      L15:  [22mimport { QuestionComponent } from '../../components/question/question';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L14:  [22mimport { FriendlytimeComponent } from '../../components/friendlytime/friendlytime';
+[app-scripts] [2m      L15:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { QuestionComponent } from '../../components/question/question';
+[app-scripts] [2m      L16:  [22mimport { TimerComponent } from '../../components/timer/timer';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L15:  [22mimport { QuestionComponent } from '../../components/question/question';
+[app-scripts] [2m      L16:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { TimerComponent } from '../../components/timer/timer';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L18:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Course } from '../../models/course';
+[app-scripts] [2m      L19:  [22mimport { Activity } from '../../models/activity';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L18:  [22mimport { Course } from '../../models/course';
+[app-scripts] [2m      L19:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Activity } from '../../models/activity';
+[app-scripts] [2m      L20:  [22mimport { ActivityMeta } from '../../models/activity';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [33m[10:38:52]  tslint: src/pages/course-status/course-status.ts, line: 18 [39m
+[app-scripts] [33m[10:38:52]  tslint: src/pages/course-status/course-status.ts, line: 19 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/course-status/course-status.ts, line: 20 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/course-status/course-status.ts, line: 21 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/course-status/course-status.ts, line: 34 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/course-status/course-status.ts, line: 35 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/course-status/course-status.ts, line: 39 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/course-status/course-status.ts, line: 40 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/wallet.ts, line: 319 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/wallet.ts, line: 2 [39m
+[app-scripts] [2m      L19:  [22mimport { Activity } from '../../models/activity';
+[app-scripts] [2m      L20:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { ActivityMeta } from '../../models/activity';
+[app-scripts] [2m      L21:  [22mimport { User } from '../../models/user';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L20:  [22mimport { ActivityMeta } from '../../models/activity';
+[app-scripts] [2m      L21:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { User } from '../../models/user';
+[app-scripts] [2m      L22:  [22mimport { CourseStatus } from '../../models/status';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L34:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m {AbsoluteDrag} from '../../components/absolute-drag/absolute-drag';
+[app-scripts] [2m      L35:  [22mimport {PinchZoomDirective} from '../../directives/pinch-zoom.directive';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L34:  [22mimport {AbsoluteDrag} from '../../components/absolute-drag/absolute-drag';
+[app-scripts] [2m      L35:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m {PinchZoomDirective} from '../../directives/pinch-zoom.directive';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L39:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { SafeHtmlPipe } from "../../pipes/orderby";
+[app-scripts] [2m      L40:  [22mimport { SafePipe } from "../../pipes/orderby";
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L39:  [22mimport { SafeHtmlPipe } from "../../pipes/orderby";
+[app-scripts] [2m      L40:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { SafePipe } from "../../pipes/orderby";
+[app-scripts]             '$this' is declared but its value is never read. 
+[app-scripts] [2m     L318:  [22mwalletPayment_batch(args:any){
+[app-scripts] [2m     L319:  [22m    let [41m$[49m[41mt[49m[41mh[49m[41mi[49m[41ms[49m=this;
+[app-scripts] [2m     L320:  [22m    console.log('walletPayment_batch func');
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L1:  [22mimport { Injectable} from '@angular/core';
+[app-scripts] [2m       L2:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Http, Headers, Response, RequestOptions, URLSearchParams } from '@angular/http';
+[app-scripts]             'user_expiry' is declared but its value is never read. 
+[app-scripts] [2m      L78:  [22mlet currenttimestamp = Math.floor(new Date().getTime() / 1000);
+[app-scripts] [33m[10:38:53]  tslint: src/pages/course/course.ts, line: 79 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/course/course.ts, line: 228 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/course/course.ts, line: 508 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/course/course.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/course/course.ts, line: 20 [39m
+[app-scripts] [2m      L79:  [22mlet [41mu[49m[41ms[49m[41me[49m[41mr[49m[41m_[49m[41me[49m[41mx[49m[41mp[49m[41mi[49m[41mr[49m[41my[49m = 0;
+[app-scripts] [2m      L80:  [22mlet loading = this.loadingCtrl.create({
+[app-scripts]             'matches' is declared but its value is never read. 
+[app-scripts] [2m     L227:  [22mif(event.url.indexOf('?key=wc_order_') !== -1){
+[app-scripts] [2m     L228:  [22m  let [41mm[49m[41ma[49m[41mt[49m[41mc[49m[41mh[49m[41me[49m[41ms[49m = event.url.match('.+/([0-9]+)/.+');
+[app-scripts] [2m     L229:  [22m  this.browser.close();
+[app-scripts]             'matches' is declared but its value is never read. 
+[app-scripts] [2m     L507:  [22mif(pricing.source == 'woocommerce' && event.url.indexOf('?key=wc_order_') !== -1){
+[app-scripts] [2m     L508:  [22m  let [41mm[49m[41ma[49m[41mt[49m[41mc[49m[41mh[49m[41me[49m[41ms[49m = event.url.match('.+/([0-9]+)/.+');
+[app-scripts] [2m     L509:  [22m  this.browser.close();
+[app-scripts]             'OnInit' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Component, [41mO[49m[41mn[49m[41mI[49m[41mn[49m[41mi[49m[41mt[49m, ViewChild } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { NavController, NavParams, ModalController,ToastController,LoadingController,AlertController, Platform, Slides } from 'ionic-angular';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L20:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { LazyImgComponent }   from '../components/lazy-img/lazy-img';
+[app-scripts] [2m      L21:  [22mimport { LazyLoadDirective }   from '../directives/lazy-load.directive';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L20:  [22mimport { LazyImgComponent }   from '../components/lazy-img/lazy-img';
+[app-scripts] [33m[10:38:53]  tslint: src/pages/course/course.ts, line: 21 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/course/course.ts, line: 22 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/course/course.ts, line: 24 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/wishlist.ts, line: 13 [39m
+[app-scripts] [2m      L21:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { LazyLoadDirective }   from '../directives/lazy-load.directive';
+[app-scripts] [2m      L22:  [22mimport { ImgcacheService } from "../services/imageCache";
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L21:  [22mimport { LazyLoadDirective }   from '../directives/lazy-load.directive';
+[app-scripts] [2m      L22:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { ImgcacheService } from "../services/imageCache";
+[app-scripts] [2m      L23:  [22mimport { ProfilePage } from '../profile/profile';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L23:  [22mimport { ProfilePage } from '../profile/profile';
+[app-scripts] [2m      L24:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { SafeHtmlPipe } from "../../pipes/orderby";
+[app-scripts] [2m      L25:  [22mimport {VgAPI} from 'videogular2/core';
+[app-scripts]             Property 'config' is declared but its value is never read. 
+[app-scripts] [2m      L12:  [22m        private storage: Storage,
+[app-scripts] [2m      L13:  [22m        private [41mc[49m[41mo[49m[41mn[49m[41mf[49m[41mi[49m[41mg[49m:ConfigService) {
+[app-scripts]             Property 'config' is declared but its value is never read. 
+[app-scripts] [33m[10:38:53]  tslint: src/components/courseblock/courseblock.ts, line: 17 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/courseblock/courseblock.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/courseblock/courseblock.ts, line: 1 [39m
+[app-scripts] [2m      L16:  [22m@ViewChild('featured') featured: ElementRef;
+[app-scripts] [2m      L17:  [22mconstructor(private wishlistService:WishlistService,private [41mc[49m[41mo[49m[41mn[49m[41mf[49m[41mi[49m[41mg[49m:ConfigService) {
+[app-scripts]             'OnInit' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Component, Input, [41mO[49m[41mn[49m[41mI[49m[41mn[49m[41mi[49m[41mt[49m,AfterViewInit, ViewChild,ElementRef } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { ConfigService } from '../../services/config';
+[app-scripts]             'AfterViewInit' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Component, Input, OnInit,[41mA[49m[41mf[49m[41mt[49m[41me[49m[41mr[49m[41mV[49m[41mi[49m[41me[49m[41mw[49m[41mI[49m[41mn[49m[41mi[49m[41mt[49m, ViewChild,ElementRef } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { ConfigService } from '../../services/config';
+[app-scripts]             'ElementRef' is declared but its value is never read. 
+[app-scripts] [33m[10:38:53]  tslint: src/components/courseblock/courseblock.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/directory/directory.ts, line: 288 [39m
+[app-scripts] [2m       L1:  [22mimport { Component, Input, OnInit,AfterViewInit, ViewChild,[41mE[49m[41ml[49m[41me[49m[41mm[49m[41me[49m[41mn[49m[41mt[49m[41mR[49m[41me[49m[41mf[49m } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { ConfigService } from '../../services/config';
+[app-scripts]             Duplicate variable: 'cats' 
+[app-scripts] [2m     L287:  [22mconsole.log(this.selectedLocations);
+[app-scripts] [2m     L288:  [22mvar [41mc[49m[41ma[49m[41mt[49m[41ms[49m = {'type':'taxonomy','taxonomy':'location','values':this.selectedLocations};
+[app-scripts] [2m     L289:  [22mthis.filters.push(cats);
+[app-scripts]             Duplicate variable: 'cats' 
+[app-scripts] [2m     L302:  [22m            var [41mc[49m[41ma[49m[41mt[49m[41ms[49m = {'type':'taxonomy','taxonomy':'level','values':this.selectedLevels};
+[app-scripts] [33m[10:38:53]  tslint: src/pages/directory/directory.ts, line: 302 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/directory/directory.ts, line: 317 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/directory/directory.ts, line: 322 [39m
+[app-scripts] [2m     L303:  [22m            this.filters.push(cats);
+[app-scripts]             Duplicate variable: 'off' 
+[app-scripts] [2m     L316:  [22mif(this.start_date){
+[app-scripts] [2m     L317:  [22m    var [41mo[49m[41mf[49m[41mf[49m = {'type':'start_date','values':this.start_date};
+[app-scripts] [2m     L318:  [22m    this.filters.push(off);   
+[app-scripts]             Duplicate variable: 'off' 
+[app-scripts] [2m     L321:  [22mif(this.end_date){
+[app-scripts] [2m     L322:  [22m    var [41mo[49m[41mf[49m[41mf[49m = {'type':'end_date','values':this.end_date};
+[app-scripts] [2m     L323:  [22m    this.filters.push(off);   
+[app-scripts]             Property 'nav' is declared but its value is never read. 
+[app-scripts] [2m      L76:  [22mpublic navParams: NavParams,
+[app-scripts] [2m      L77:  [22m  private [41mn[49m[41ma[49m[41mv[49m: NavController,
+[app-scripts] [2m      L78:  [22m  private modalCtrl: ModalController,
+[app-scripts]             'OnInit' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Component, [41mO[49m[41mn[49m[41mI[49m[41mn[49m[41mi[49m[41mt[49m } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { FormControl } from '@angular/forms';
+[app-scripts] [33m[10:38:53]  tslint: src/pages/directory/directory.ts, line: 77 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/directory/directory.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/directory/directory.ts, line: 10 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/directory/directory.ts, line: 12 [39m
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L9:  [22mimport { CourseCategory } from '../../models/course';
+[app-scripts] [2m      L10:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Course } from '../../models/course';
+[app-scripts] [2m      L11:  [22mimport { User } from '../../models/user';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L11:  [22mimport { User } from '../../models/user';
+[app-scripts] [2m      L12:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { FullCourseCategory } from '../../models/coursecategory';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [33m[10:38:53]  tslint: src/pages/directory/directory.ts, line: 15 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/directory/directory.ts, line: 20 [39m
+[app-scripts] [2m      L14:  [22mimport 'rxjs/add/operator/map';
+[app-scripts] [2m      L15:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Observable } from 'rxjs/Observable';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L19:  [22mimport { UserService } from '../../services/users';
+[app-scripts] [2m      L20:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Courseblock } from '../../components/courseblock/courseblock';
+[app-scripts] [2m      L21:  [22mimport { WishlistService } from '../../services/wishlist';
+[app-scripts]             Property 'courseService' is declared but its value is never read. 
+[app-scripts] [2m      L36:  [22mprivate config:ConfigService,
+[app-scripts] [2m      L37:  [22mprivate [41mc[49m[41mo[49m[41mu[49m[41mr[49m[41ms[49m[41me[49m[41mS[49m[41me[49m[41mr[49m[41mv[49m[41mi[49m[41mc[49m[41me[49m:CourseService,
+[app-scripts] [2m      L38:  [22mprivate userService:UserService,
+[app-scripts] [33m[10:38:53]  tslint: src/pages/instructor/instructor.ts, line: 37 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/instructor/instructor.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/search/search.ts, line: 40 [39m
+[app-scripts]             'OnInit' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Component, [41mO[49m[41mn[49m[41mI[49m[41mn[49m[41mi[49m[41mt[49m,ViewChild } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { NavController, NavParams,ViewController, Slides } from 'ionic-angular';
+[app-scripts]             Property 'config' is declared but its value is never read. 
+[app-scripts] [2m      L39:  [22mprivate userService:UserService,
+[app-scripts] [2m      L40:  [22mprivate [41mc[49m[41mo[49m[41mn[49m[41mf[49m[41mi[49m[41mg[49m:ConfigService
+[app-scripts] [2m      L41:  [22m){
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L11:  [22mimport { CoursePage } from '../course/course';
+[app-scripts] [33m[10:38:53]  tslint: src/pages/search/search.ts, line: 12 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/blog/blog.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/result/result.ts, line: 1 [39m
+[app-scripts] [2m      L12:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Course } from '../../models/course';
+[app-scripts]             'OnInit' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Component, [41mO[49m[41mn[49m[41mI[49m[41mn[49m[41mi[49m[41mt[49m } from '@angular/core';
+[app-scripts]             'OnInit' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Component, [41mO[49m[41mn[49m[41mI[49m[41mn[49m[41mi[49m[41mt[49m } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { IonicPage, NavController, NavParams, LoadingController } from 'ionic-angular';
+[app-scripts]             'IonicPage' is declared but its value is never read. 
+[app-scripts] [33m[10:38:53]  tslint: src/pages/result/result.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/directives/longPress.directive.ts, line: 1 [39m
+[app-scripts] [2m       L1:  [22mimport { Component, OnInit } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { [41mI[49m[41mo[49m[41mn[49m[41mi[49m[41mc[49m[41mP[49m[41ma[49m[41mg[49m[41me[49m, NavController, NavParams, LoadingController } from 'ionic-angular';
+[app-scripts]             'ElementRef' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport {Directive, [41mE[49m[41ml[49m[41me[49m[41mm[49m[41me[49m[41mn[49m[41mt[49m[41mR[49m[41me[49m[41mf[49m, OnInit, OnDestroy, Output, EventEmitter} from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport {Gesture} from 'ionic-angular/gestures/gesture';
+[app-scripts]             'OnInit' is declared but its value is never read. 
+[app-scripts] [33m[10:38:53]  tslint: src/directives/longPress.directive.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/directives/longPress.directive.ts, line: 1 [39m
+[app-scripts] [2m       L1:  [22mimport {Directive, ElementRef, [41mO[49m[41mn[49m[41mI[49m[41mn[49m[41mi[49m[41mt[49m, OnDestroy, Output, EventEmitter} from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport {Gesture} from 'ionic-angular/gestures/gesture';
+[app-scripts]             'OnDestroy' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport {Directive, ElementRef, OnInit, [41mO[49m[41mn[49m[41mD[49m[41me[49m[41ms[49m[41mt[49m[41mr[49m[41mo[49m[41my[49m, Output, EventEmitter} from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport {Gesture} from 'ionic-angular/gestures/gesture';
+[app-scripts] [33m[10:38:53]  tslint: src/pages/login/login.ts, line: 56 [39m
+[app-scripts]             Property 'toastCtrl' is declared but its value is never read. 
+[app-scripts] [2m      L55:  [22mprivate viewCtrl: ViewController, 
+[app-scripts] [2m      L56:  [22mprivate [41mt[49m[41mo[49m[41ma[49m[41ms[49m[41mt[49m[41mC[49m[41mt[49m[41mr[49m[41ml[49m: ToastController,
+[app-scripts] [2m      L57:  [22mprivate navParams : NavParams, 
+[app-scripts]             Property 'navParams' is declared but its value is never read. 
+[app-scripts] [2m      L56:  [22mprivate toastCtrl: ToastController,
+[app-scripts] [33m[10:38:53]  tslint: src/pages/login/login.ts, line: 57 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/login/login.ts, line: 60 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/login/login.ts, line: 62 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/login/login.ts, line: 63 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/login/login.ts, line: 65 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/login/login.ts, line: 67 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/login/login.ts, line: 68 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/login/login.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/login/login.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/login/login.ts, line: 3 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/login/login.ts, line: 3 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/login/login.ts, line: 3 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/login/login.ts, line: 9 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/login/login.ts, line: 18 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/login/login.ts, line: 20 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/login/login.ts, line: 21 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/login/login.ts, line: 23 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/login/login.ts, line: 27 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/login/login.ts, line: 28 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/register/register.ts, line: 56 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/register/register.ts, line: 59 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/register/register.ts, line: 61 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/register/register.ts, line: 62 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/register/register.ts, line: 64 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/register/register.ts, line: 66 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/register/register.ts, line: 67 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/register/register.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/register/register.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/register/register.ts, line: 3 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/register/register.ts, line: 3 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/register/register.ts, line: 3 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/register/register.ts, line: 17 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/register/register.ts, line: 18 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/register/register.ts, line: 19 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/register/register.ts, line: 22 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/register/register.ts, line: 26 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/register/register.ts, line: 27 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/profile/profile.ts, line: 107 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/profile/profile.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/profile/profile.ts, line: 3 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/profile/profile.ts, line: 3 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/profile/profile.ts, line: 3 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/profile/profile.ts, line: 26 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/profile/profile.ts, line: 28 [39m
+[app-scripts] [2m      L57:  [22mprivate [41mn[49m[41ma[49m[41mv[49m[41mP[49m[41ma[49m[41mr[49m[41ma[49m[41mm[49m[41ms[49m : NavParams, 
+[app-scripts] [2m      L58:  [22mprivate auth: AuthenticationService, 
+[app-scripts]             Property 'platform' is declared but its value is never read. 
+[app-scripts] [2m      L59:  [22mprivate userService:UserService,
+[app-scripts] [2m      L60:  [22mprivate [41mp[49m[41ml[49m[41ma[49m[41mt[49m[41mf[49m[41mo[49m[41mr[49m[41mm[49m:Platform,
+[app-scripts] [2m      L61:  [22mprivate config:ConfigService,
+[app-scripts]             Property 'storage' is declared but its value is never read. 
+[app-scripts] [2m      L61:  [22mprivate config:ConfigService,
+[app-scripts] [2m      L62:  [22mprivate [41ms[49m[41mt[49m[41mo[49m[41mr[49m[41ma[49m[41mg[49m[41me[49m:Storage,
+[app-scripts] [2m      L63:  [22mprivate formBuilder:FormBuilder,
+[app-scripts]             Property 'formBuilder' is declared but its value is never read. 
+[app-scripts] [2m      L62:  [22mprivate storage:Storage,
+[app-scripts] [2m      L63:  [22mprivate [41mf[49m[41mo[49m[41mr[49m[41mm[49m[41mB[49m[41mu[49m[41mi[49m[41ml[49m[41md[49m[41me[49m[41mr[49m:FormBuilder,
+[app-scripts] [2m      L64:  [22mprivate loadingCtrl:LoadingController,
+[app-scripts]             Property 'action' is declared but its value is never read. 
+[app-scripts] [2m      L64:  [22mprivate loadingCtrl:LoadingController,
+[app-scripts] [2m      L65:  [22mprivate [41ma[49m[41mc[49m[41mt[49m[41mi[49m[41mo[49m[41mn[49m:ActionSheetController,
+[app-scripts] [2m      L66:  [22mprivate alertCtrl:AlertController,
+[app-scripts]             Property 'camera' is declared but its value is never read. 
+[app-scripts] [2m      L66:  [22mprivate alertCtrl:AlertController,
+[app-scripts] [2m      L67:  [22mprivate [41mc[49m[41ma[49m[41mm[49m[41me[49m[41mr[49m[41ma[49m: Camera,
+[app-scripts] [2m      L68:  [22mprivate iab:InAppBrowser,
+[app-scripts]             Property 'iab' is declared but its value is never read. 
+[app-scripts] [2m      L67:  [22mprivate camera: Camera,
+[app-scripts] [2m      L68:  [22mprivate [41mi[49m[41ma[49m[41mb[49m:InAppBrowser,
+[app-scripts] [2m      L69:  [22mpublic appCtrl: App
+[app-scripts]             'OnInit' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Component, [41mO[49m[41mn[49m[41mI[49m[41mn[49m[41mi[49m[41mt[49m, ViewChild } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { App, Content,NavController,ViewController,LoadingController, ToastController,ActionSheetController,AlertController, NavParams, Slides,Platform } from 'ionic-angular';
+[app-scripts]             'Slides' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Component, OnInit, ViewChild } from '@angular/core';
+[app-scripts] [2m       L2:  [22mr, ToastController,ActionSheetController,AlertController, NavParams, [41mS[49m[41ml[49m[41mi[49m[41md[49m[41me[49m[41ms[49m,Platform } from 'ionic-angular';
+[app-scripts] [2m       L3:  [22mimport { FormBuilder, FormGroup,FormControl, Validators, } from '@angular/forms';
+[app-scripts]             'FormBuilder' is declared but its value is never read. 
+[app-scripts] [2m       L2:  [22mimport { App, Content,NavController,ViewController,LoadingController, ToastController,ActionSheetController,AlertController, NavParams, Slides,Platform } from 'ionic-angular';
+[app-scripts] [2m       L3:  [22mimport { [41mF[49m[41mo[49m[41mr[49m[41mm[49m[41mB[49m[41mu[49m[41mi[49m[41ml[49m[41md[49m[41me[49m[41mr[49m, FormGroup,FormControl, Validators, } from '@angular/forms';
+[app-scripts]             'FormGroup' is declared but its value is never read. 
+[app-scripts] [2m       L2:  [22mimport { App, Content,NavController,ViewController,LoadingController, ToastController,ActionSheetController,AlertController, NavParams, Slides,Platform } from 'ionic-angular';
+[app-scripts] [2m       L3:  [22mimport { FormBuilder, [41mF[49m[41mo[49m[41mr[49m[41mm[49m[41mG[49m[41mr[49m[41mo[49m[41mu[49m[41mp[49m,FormControl, Validators, } from '@angular/forms';
+[app-scripts]             'FormControl' is declared but its value is never read. 
+[app-scripts] [2m       L2:  [22mimport { App, Content,NavController,ViewController,LoadingController, ToastController,ActionSheetController,AlertController, NavParams, Slides,Platform } from 'ionic-angular';
+[app-scripts] [2m       L3:  [22mimport { FormBuilder, FormGroup,[41mF[49m[41mo[49m[41mr[49m[41mm[49m[41mC[49m[41mo[49m[41mn[49m[41mt[49m[41mr[49m[41mo[49m[41ml[49m, Validators, } from '@angular/forms';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m       L8:  [22mimport 'rxjs/add/operator/toPromise';
+[app-scripts] [2m       L9:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { BlogPage } from '../blog/blog';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L17:  [22mimport { Profile } from '../../models/user';
+[app-scripts] [2m      L18:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { CourseStatusPage } from '../course-status/course-status';
+[app-scripts] [2m      L19:  [22mimport {ProfilePage} from '../profile/profile';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L19:  [22mimport {ProfilePage} from '../profile/profile';
+[app-scripts] [2m      L20:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { ResultPage } from '../result/result';
+[app-scripts] [2m      L21:  [22mimport { FriendlytimeComponent } from '../../components/friendlytime/friendlytime';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L20:  [22mimport { ResultPage } from '../result/result';
+[app-scripts] [2m      L21:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { FriendlytimeComponent } from '../../components/friendlytime/friendlytime';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L23:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { PressDirective } from '../../directives/longPress.directive';
+[app-scripts] [2m      L24:  [22mimport { TabsPage } from '../tabs/tabs';
+[app-scripts]             'CameraOptions' is declared but its value is never read. 
+[app-scripts] [2m      L26:  [22mimport { Storage } from '@ionic/storage';
+[app-scripts] [2m      L27:  [22mimport { Camera, [41mC[49m[41ma[49m[41mm[49m[41me[49m[41mr[49m[41ma[49m[41mO[49m[41mp[49m[41mt[49m[41mi[49m[41mo[49m[41mn[49m[41ms[49m } from '@ionic-native/camera';
+[app-scripts] [2m      L28:  [22mimport { Chart } from 'chart.js';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L27:  [22mimport { Camera, CameraOptions } from '@ionic-native/camera';
+[app-scripts] [2m      L28:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Chart } from 'chart.js';
+[app-scripts]             Property 'navParams' is declared but its value is never read. 
+[app-scripts] [2m      L55:  [22mprivate toastCtrl: ToastController,
+[app-scripts] [2m      L56:  [22mprivate [41mn[49m[41ma[49m[41mv[49m[41mP[49m[41ma[49m[41mr[49m[41ma[49m[41mm[49m[41ms[49m : NavParams, 
+[app-scripts] [2m      L57:  [22mprivate auth: AuthenticationService, 
+[app-scripts]             Property 'platform' is declared but its value is never read. 
+[app-scripts] [2m      L58:  [22mprivate userService:UserService,
+[app-scripts] [2m      L59:  [22mprivate [41mp[49m[41ml[49m[41ma[49m[41mt[49m[41mf[49m[41mo[49m[41mr[49m[41mm[49m:Platform,
+[app-scripts] [2m      L60:  [22mprivate config:ConfigService,
+[app-scripts]             Property 'storage' is declared but its value is never read. 
+[app-scripts] [2m      L60:  [22mprivate config:ConfigService,
+[app-scripts] [2m      L61:  [22mprivate [41ms[49m[41mt[49m[41mo[49m[41mr[49m[41ma[49m[41mg[49m[41me[49m:Storage,
+[app-scripts] [2m      L62:  [22mprivate formBuilder:FormBuilder,
+[app-scripts]             Property 'formBuilder' is declared but its value is never read. 
+[app-scripts] [2m      L61:  [22mprivate storage:Storage,
+[app-scripts] [2m      L62:  [22mprivate [41mf[49m[41mo[49m[41mr[49m[41mm[49m[41mB[49m[41mu[49m[41mi[49m[41ml[49m[41md[49m[41me[49m[41mr[49m:FormBuilder,
+[app-scripts] [2m      L63:  [22mprivate loadingCtrl:LoadingController,
+[app-scripts]             Property 'action' is declared but its value is never read. 
+[app-scripts] [2m      L63:  [22mprivate loadingCtrl:LoadingController,
+[app-scripts] [2m      L64:  [22mprivate [41ma[49m[41mc[49m[41mt[49m[41mi[49m[41mo[49m[41mn[49m:ActionSheetController,
+[app-scripts] [2m      L65:  [22mprivate alertCtrl:AlertController,
+[app-scripts]             Property 'camera' is declared but its value is never read. 
+[app-scripts] [2m      L65:  [22mprivate alertCtrl:AlertController,
+[app-scripts] [2m      L66:  [22mprivate [41mc[49m[41ma[49m[41mm[49m[41me[49m[41mr[49m[41ma[49m: Camera,
+[app-scripts] [2m      L67:  [22mprivate iab:InAppBrowser
+[app-scripts]             Property 'iab' is declared but its value is never read. 
+[app-scripts] [2m      L66:  [22mprivate camera: Camera,
+[app-scripts] [2m      L67:  [22mprivate [41mi[49m[41ma[49m[41mb[49m:InAppBrowser
+[app-scripts] [2m      L68:  [22m) {
+[app-scripts]             'OnInit' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Component, [41mO[49m[41mn[49m[41mI[49m[41mn[49m[41mi[49m[41mt[49m, ViewChild } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { Content,NavController,ViewController,LoadingController, ToastController,ActionSheetController,AlertController, NavParams, Slides,Platform } from 'ionic-angular';
+[app-scripts]             'Slides' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Component, OnInit, ViewChild } from '@angular/core';
+[app-scripts] [2m       L2:  [22mr, ToastController,ActionSheetController,AlertController, NavParams, [41mS[49m[41ml[49m[41mi[49m[41md[49m[41me[49m[41ms[49m,Platform } from 'ionic-angular';
+[app-scripts] [2m       L3:  [22mimport { FormBuilder, FormGroup,FormControl, Validators, } from '@angular/forms';
+[app-scripts]             'FormBuilder' is declared but its value is never read. 
+[app-scripts] [2m       L2:  [22mimport { Content,NavController,ViewController,LoadingController, ToastController,ActionSheetController,AlertController, NavParams, Slides,Platform } from 'ionic-angular';
+[app-scripts] [2m       L3:  [22mimport { [41mF[49m[41mo[49m[41mr[49m[41mm[49m[41mB[49m[41mu[49m[41mi[49m[41ml[49m[41md[49m[41me[49m[41mr[49m, FormGroup,FormControl, Validators, } from '@angular/forms';
+[app-scripts]             'FormGroup' is declared but its value is never read. 
+[app-scripts] [2m       L2:  [22mimport { Content,NavController,ViewController,LoadingController, ToastController,ActionSheetController,AlertController, NavParams, Slides,Platform } from 'ionic-angular';
+[app-scripts] [2m       L3:  [22mimport { FormBuilder, [41mF[49m[41mo[49m[41mr[49m[41mm[49m[41mG[49m[41mr[49m[41mo[49m[41mu[49m[41mp[49m,FormControl, Validators, } from '@angular/forms';
+[app-scripts]             'FormControl' is declared but its value is never read. 
+[app-scripts] [2m       L2:  [22mimport { Content,NavController,ViewController,LoadingController, ToastController,ActionSheetController,AlertController, NavParams, Slides,Platform } from 'ionic-angular';
+[app-scripts] [2m       L3:  [22mimport { FormBuilder, FormGroup,[41mF[49m[41mo[49m[41mr[49m[41mm[49m[41mC[49m[41mo[49m[41mn[49m[41mt[49m[41mr[49m[41mo[49m[41ml[49m, Validators, } from '@angular/forms';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L16:  [22mimport { Profile } from '../../models/user';
+[app-scripts] [2m      L17:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { CourseStatusPage } from '../course-status/course-status';
+[app-scripts] [2m      L18:  [22mimport { ResultPage } from '../result/result';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L17:  [22mimport { CourseStatusPage } from '../course-status/course-status';
+[app-scripts] [2m      L18:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { ResultPage } from '../result/result';
+[app-scripts] [2m      L19:  [22mimport { FriendlytimeComponent } from '../../components/friendlytime/friendlytime';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L18:  [22mimport { ResultPage } from '../result/result';
+[app-scripts] [2m      L19:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { FriendlytimeComponent } from '../../components/friendlytime/friendlytime';
+[app-scripts] [2m      L20:  [22mimport {ProfilePage} from '../profile/profile';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L22:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { PressDirective } from '../../directives/longPress.directive';
+[app-scripts] [2m      L23:  [22mimport { TabsPage } from '../tabs/tabs';
+[app-scripts]             'CameraOptions' is declared but its value is never read. 
+[app-scripts] [2m      L25:  [22mimport { Storage } from '@ionic/storage';
+[app-scripts] [2m      L26:  [22mimport { Camera, [41mC[49m[41ma[49m[41mm[49m[41me[49m[41mr[49m[41ma[49m[41mO[49m[41mp[49m[41mt[49m[41mi[49m[41mo[49m[41mn[49m[41ms[49m } from '@ionic-native/camera';
+[app-scripts] [2m      L27:  [22mimport { Chart } from 'chart.js';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L26:  [22mimport { Camera, CameraOptions } from '@ionic-native/camera';
+[app-scripts] [2m      L27:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { Chart } from 'chart.js';
+[app-scripts]             Property 'formBuilder' is declared but its value is never read. 
+[app-scripts] [2m     L106:  [22mprivate storage: Storage,
+[app-scripts] [2m     L107:  [22mprivate [41mf[49m[41mo[49m[41mr[49m[41mm[49m[41mB[49m[41mu[49m[41mi[49m[41ml[49m[41md[49m[41me[49m[41mr[49m: FormBuilder,
+[app-scripts] [2m     L108:  [22mprivate loadingCtrl: LoadingController,
+[app-scripts]             'OnInit' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Component, [41mO[49m[41mn[49m[41mI[49m[41mn[49m[41mi[49m[41mt[49m, ViewChild } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { Content, NavController, ViewController, LoadingController, ToastController, ActionSheetController, AlertController, NavParams, Slides, Platform } from 'ionic-angular';
+[app-scripts]             'FormBuilder' is declared but its value is never read. 
+[app-scripts] [2m       L2:  [22mimport { Content, NavController, ViewController, LoadingController, ToastController, ActionSheetController, AlertController, NavParams, Slides, Platform } from 'ionic-angular';
+[app-scripts] [2m       L3:  [22mimport { [41mF[49m[41mo[49m[41mr[49m[41mm[49m[41mB[49m[41mu[49m[41mi[49m[41ml[49m[41md[49m[41me[49m[41mr[49m, FormGroup, FormControl, Validators, } from '@angular/forms';
+[app-scripts] [2m       L4:  [22m//import { InAppBrowser } from 'ionic-native';
+[app-scripts]             'FormGroup' is declared but its value is never read. 
+[app-scripts] [2m       L2:  [22mimport { Content, NavController, ViewController, LoadingController, ToastController, ActionSheetController, AlertController, NavParams, Slides, Platform } from 'ionic-angular';
+[app-scripts] [2m       L3:  [22mimport { FormBuilder, [41mF[49m[41mo[49m[41mr[49m[41mm[49m[41mG[49m[41mr[49m[41mo[49m[41mu[49m[41mp[49m, FormControl, Validators, } from '@angular/forms';
+[app-scripts] [2m       L4:  [22m//import { InAppBrowser } from 'ionic-native';
+[app-scripts]             'FormControl' is declared but its value is never read. 
+[app-scripts] [2m       L2:  [22mimport { Content, NavController, ViewController, LoadingController, ToastController, ActionSheetController, AlertController, NavParams, Slides, Platform } from 'ionic-angular';
+[app-scripts] [2m       L3:  [22mimport { FormBuilder, FormGroup, [41mF[49m[41mo[49m[41mr[49m[41mm[49m[41mC[49m[41mo[49m[41mn[49m[41mt[49m[41mr[49m[41mo[49m[41ml[49m, Validators, } from '@angular/forms';
+[app-scripts] [2m       L4:  [22m//import { InAppBrowser } from 'ionic-native';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L25:  [22mimport { ResultPage } from '../result/result';
+[app-scripts] [2m      L26:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { FriendlytimeComponent } from '../../components/friendlytime/friendlytime';
+[app-scripts]             All imports on this line are unused. 
+[app-scripts] [2m      L28:  [22m[41mi[49m[41mm[49m[41mp[49m[41mo[49m[41mr[49m[41mt[49m { PressDirective } from '../../directives/longPress.directive';
+[app-scripts] [2m      L29:  [22mimport { TabsPage } from '../tabs/tabs';
+[app-scripts]             'ElementRef' is declared but its value is never read. 
+[app-scripts] [2m       L2:  [22mDirective,
+[app-scripts] [2m       L3:  [22m[41mE[49m[41ml[49m[41me[49m[41mm[49m[41me[49m[41mn[49m[41mt[49m[41mR[49m[41me[49m[41mf[49m,
+[app-scripts] [2m       L4:  [22mRenderer
+[app-scripts]             'Renderer' is declared but its value is never read. 
+[app-scripts] [2m       L3:  [22m    ElementRef,
+[app-scripts] [2m       L4:  [22m    [41mR[49m[41me[49m[41mn[49m[41md[49m[41me[49m[41mr[49m[41me[49m[41mr[49m
+[app-scripts] [2m       L5:  [22m} from '@angular/core';
+[app-scripts]             Property 'config' is declared but its value is never read. 
+[app-scripts] [2m      L16:  [22mconstructor(
+[app-scripts] [2m      L17:  [22m	private wishlistService:WishlistService,private [41mc[49m[41mo[49m[41mn[49m[41mf[49m[41mi[49m[41mg[49m:ConfigService) {
+[app-scripts]             'OnInit' is declared but its value is never read. 
+[app-scripts] [2m       L1:  [22mimport { Component, Input, [41mO[49m[41mn[49m[41mI[49m[41mn[49m[41mi[49m[41mt[49m } from '@angular/core';
+[app-scripts] [2m       L2:  [22mimport { ConfigService } from '../../services/config';
+[app-scripts] [33m[10:38:53]  tslint: src/components/fixed-scroll-header/fixed-scroll-header.ts, line: 3 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/fixed-scroll-header/fixed-scroll-header.ts, line: 4 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/coursecard/coursecard.ts, line: 17 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/coursecard/coursecard.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/home/home.ts, line: 59 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/home/home.ts, line: 60 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/home/home.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/home/home.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/home/home.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/home/home.ts, line: 5 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/home/home.ts, line: 6 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/home/home.ts, line: 25 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/home/home.ts, line: 26 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/home/home.ts, line: 31 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/contact/contact.ts, line: 21 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/contact/contact.ts, line: 3 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/contact/contact.ts, line: 3 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/wallet/wallet.ts, line: 39 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/wallet/wallet.ts, line: 40 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/wallet/wallet.ts, line: 41 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/wallet/wallet.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/wallet/wallet.ts, line: 3 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/wallet/wallet.ts, line: 3 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/wallet/wallet.ts, line: 9 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/wallet/wallet.ts, line: 12 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/wallet/wallet.ts, line: 14 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/message/message.ts, line: 14 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/message/message.ts, line: 52 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/message/message.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/message/message.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/message/message.ts, line: 6 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/message/message.ts, line: 8 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/message/message.ts, line: 9 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/message/message.ts, line: 11 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/chat/chat.ts, line: 47 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/chat/chat.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/chat/chat.ts, line: 3 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/chat/chat.ts, line: 9 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/chat/chat.ts, line: 12 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/chat/chat.ts, line: 14 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/chat/chat.ts, line: 16 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/chat/chat.ts, line: 16 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/wishlist/wishlist.ts, line: 15 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/wishlist/wishlist.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/wishlist/wishlist.ts, line: 5 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/updates.ts, line: 76 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/updates.ts, line: 99 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/updates/updates.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/updates/updates.ts, line: 6 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/tabs/tabs.ts, line: 42 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/tabs/tabs.ts, line: 43 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/tabs/tabs.ts, line: 45 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/tabs/tabs.ts, line: 46 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/groupdirectory/groupdirectory.ts, line: 38 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/groupdirectory/groupdirectory.ts, line: 169 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/groupdirectory/groupdirectory.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/groupdirectory/groupdirectory.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/groupdirectory/groupdirectory.ts, line: 5 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/groupdirectory/groupdirectory.ts, line: 8 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/members.ts, line: 25 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/members.ts, line: 26 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/members.ts, line: 28 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/members.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/members.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/members.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/members.ts, line: 4 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/members.ts, line: 5 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/members.ts, line: 7 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/membersdirectory/membersdirectory.ts, line: 37 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/membersdirectory/membersdirectory.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/membersdirectory/membersdirectory.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/membersdirectory/membersdirectory.ts, line: 5 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/membersdirectory/membersdirectory.ts, line: 7 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/forumdirectory/forumdirectory.ts, line: 39 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/forumdirectory/forumdirectory.ts, line: 40 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/forumdirectory/forumdirectory.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/forumdirectory/forumdirectory.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/forumdirectory/forumdirectory.ts, line: 5 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/forumdirectory/forumdirectory.ts, line: 7 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/instructors/instructors.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/sidemenu.ts, line: 3 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/multiselector/multiselector.ts, line: 27 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/multiselector/multiselector.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/multiselector/multiselector.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/multiselector/multiselector.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/imageCache.ts, line: 75 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/app/app.component.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/app/app.component.ts, line: 9 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/app/app.component.ts, line: 10 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/app/app.component.ts, line: 11 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/app/app.component.ts, line: 12 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/app/app.component.ts, line: 13 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/app/app.component.ts, line: 14 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/app/app.component.ts, line: 16 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/app/app.component.ts, line: 25 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/swipedtab/swipedtab.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/swipedtab/swipedtab.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/FormValidator.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/FormValidator.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/directives/lazy-load.directive.ts, line: 3 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/directives/lazy-load.directive.ts, line: 7 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/directives/lazy-load.directive.ts, line: 7 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/directives/lazy-load.directive.ts, line: 7 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/group/group.ts, line: 32 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/group/group.ts, line: 34 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/group/group.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/group/group.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/group/group.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/group/group.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/group/group.ts, line: 5 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/group/group.ts, line: 8 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/member/member.ts, line: 25 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/member/member.ts, line: 26 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/member/member.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/member/member.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/member/member.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/member/member.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/member/member.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/replydirectory/replydirectory.ts, line: 53 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/replydirectory/replydirectory.ts, line: 56 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/replydirectory/replydirectory.ts, line: 57 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/replydirectory/replydirectory.ts, line: 268 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/replydirectory/replydirectory.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/replydirectory/replydirectory.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/replydirectory/replydirectory.ts, line: 5 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/replydirectory/replydirectory.ts, line: 7 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/replydirectory/replydirectory.ts, line: 10 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/replydirectory/replydirectory.ts, line: 10 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/elastic-header/elastic-header.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/elastic-header/elastic-header.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/avatarscrollzoomout/avatarscrollzoomout.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/avatarscrollzoomout/avatarscrollzoomout.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/pipefilters.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/instructorblock/instructorblock.ts, line: 17 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/instructorblock/instructorblock.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/commentblock/commentblock.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/commentblock/commentblock.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/commentblock/commentblock.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/commentblock/commentblock.ts, line: 4 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/commentblock/commentblock.ts, line: 7 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/chatblock/chatblock.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/chatblock/chatblock.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/chatblock/chatblock.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/chatblock/chatblock.ts, line: 4 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/chatblock/chatblock.ts, line: 4 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/chatblock/chatblock.ts, line: 4 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/chatblock/chatblock.ts, line: 4 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/groupblock/groupblock.ts, line: 129 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/groupblock/groupblock.ts, line: 154 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/groupblock/groupblock.ts, line: 160 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/groupblock/groupblock.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/groupblock/groupblock.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/groupblock/groupblock.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/groupblock/groupblock.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/groupblock/groupblock.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/groupblock/groupblock.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/memberblock/memberblock.ts, line: 19 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/memberblock/memberblock.ts, line: 21 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/memberblock/memberblock.ts, line: 22 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/memberblock/memberblock.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/memberblock/memberblock.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/memberblock/memberblock.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/memberblock/memberblock.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/memberblock/memberblock.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/memberblock/memberblock.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/memberblock/memberblock.ts, line: 4 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/topicblock/topicblock.ts, line: 19 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/topicblock/topicblock.ts, line: 22 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/topicblock/topicblock.ts, line: 23 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/topicblock/topicblock.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/topicblock/topicblock.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/topicblock/topicblock.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/topicblock/topicblock.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/topicblock/topicblock.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/topicblock/topicblock.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/replyblock/replyblock.ts, line: 83 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/replyblock/replyblock.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/replyblock/replyblock.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/replyblock/replyblock.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/replyblock/replyblock.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/messageblock/messageblock.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/messageblock/messageblock.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/messageblock/messageblock.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/messageblock/messageblock.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/messageblock/messageblock.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/messageblock/messageblock.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/messageblock/messageblock.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/video-gular/video-gular.ts, line: 15 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/video-gular/video-gular.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/match/match.ts, line: 9 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/match/match.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/match/match.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/fillblank/fillblank.ts, line: 8 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/fillblank/fillblank.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/fillblank/fillblank.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/select/select.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/select/select.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/topicdirectory/topicdirectory.ts, line: 45 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/topicdirectory/topicdirectory.ts, line: 48 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/topicdirectory/topicdirectory.ts, line: 49 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/topicdirectory/topicdirectory.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/topicdirectory/topicdirectory.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/topicdirectory/topicdirectory.ts, line: 5 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/topicdirectory/topicdirectory.ts, line: 7 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/topicdirectory/topicdirectory.ts, line: 10 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/pages/topicdirectory/topicdirectory.ts, line: 10 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/forumblock/forumblock.ts, line: 19 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/forumblock/forumblock.ts, line: 22 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/forumblock/forumblock.ts, line: 23 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/forumblock/forumblock.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/forumblock/forumblock.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/forumblock/forumblock.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/forumblock/forumblock.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/forumblock/forumblock.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/components/forumblock/forumblock.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/app/app.module.ts, line: 23 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/app/app.module.ts, line: 26 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/app/app.module.ts, line: 150 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/app/app.module.ts, line: 150 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/admob.ts, line: 19 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/admob.ts, line: 20 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/admob.ts, line: 21 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/admob.ts, line: 22 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/admob.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/admob.ts, line: 6 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/admob.ts, line: 6 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/admob.ts, line: 6 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/admob.ts, line: 6 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/coursecategories.ts, line: 20 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/services/coursecategories.ts, line: 2 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/validators/email.ts, line: 1 [39m
+[app-scripts] [33m[10:38:53]  tslint: src/validators/username.ts, line: 1 [39m
+[app-scripts] [10:38:53]  lint finished in 5.53 s 
